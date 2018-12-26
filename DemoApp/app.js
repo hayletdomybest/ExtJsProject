@@ -8,8 +8,12 @@ Ext.application({
     name: 'DemoApp',
 
     requires: [
-        'DemoApp.view.main.Table' ,
-        'Ext.panel.Panel'     
+        'DemoApp.*',
+        'Ext.Panel'
+        //'DemoApp.view.main.Table' ,
+        //'DemoApp.view.main.Tree',
+        //'Ext.panel.Panel',
+        //'Ext.tree.Panel'
     ],
 
     // The name of the initial view to create.

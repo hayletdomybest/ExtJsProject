@@ -1,6 +1,6 @@
 {
-    "name": "Weather",
-    "namespace": "Weather",
+    "name": "DemoApp",
+    "namespace": "DemoApp",
     "version": "1.0.0.0",
     "framework": "ext",
     "toolkit": "classic",
@@ -16,7 +16,8 @@
      *      ]
      */
     "requires": [
-        "font-awesome"
+        "font-awesome",
+        "charts"
     ],
 
     /**
@@ -64,13 +65,13 @@
     "sass": {
         /**
          * The root namespace to use when mapping *.scss files to classes in the
-         * sass/src and sass/var directories. For example, "Weather.view.Foo" would
-         * map to "sass/src/view/Foo.scss". If we changed this to "Weather.view" then
+         * sass/src and sass/var directories. For example, "DemoApp.view.Foo" would
+         * map to "sass/src/view/Foo.scss". If we changed this to "DemoApp.view" then
          * it would map to "sass/src/Foo.scss". To style classes outside the app's
          * root namespace, change this to "". Doing so would change the mapping of
-         * "Weather.view.Foo" to "sass/src/Weather/view/Foo.scss".
+         * "DemoApp.view.Foo" to "sass/src/DemoApp/view/Foo.scss".
          */
-        "namespace": "Weather",
+        "namespace": "DemoApp",
 
         /**
          * Generated sass source settings
@@ -496,5 +497,5 @@
      * Uniquely generated id for this application, used as prefix for localStorage keys.
      * Normally you should never change this value.
      */
-    "id": "fcbe64e5-7197-4ed0-bb2d-f3e8eab7260b"
+    "id": "5fbad314-acbe-4fdd-8146-df8617cec32b"
 }

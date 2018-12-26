@@ -12,7 +12,7 @@ Ext.define('DemoApp.view.main.Main', {
     bodyBorder: false,
     requires: [
         'DemoApp.view.main.Table' ,
-        'Ext.panel.Panel'     
+        //'Ext.panel.Panel'     
     ],
     defaults: {
         //collapsible: true,
@@ -26,7 +26,7 @@ Ext.define('DemoApp.view.main.Main', {
         region: 'north'
     },{
         title: '功能表',
-        xtype: 'mainlist',
+        xtype: 'maintree',
         region:'west',
         floatable: false,
         margins: '5 0 0 0',
