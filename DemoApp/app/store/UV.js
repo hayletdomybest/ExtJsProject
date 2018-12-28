@@ -7,6 +7,7 @@ Ext.define('DemoApp.store.UV', {
     autoLoad: true,
     proxy: {
         type: 'ajax',
+        method : 'GET',
         url: 'http://opendata.epa.gov.tw/ws/Data/UV/?$orderby=PublishAgency&amp;$skip=0&amp;$top=1000&format=json',
         withCredentials : true,
         useDefaultXhrHeader : false,
@@ -27,6 +28,7 @@ Ext.define('DemoApp.store.UV_std', {
     autoLoad: true,
     proxy: {
         type: 'ajax',
+        method : 'GET',
         url: 'https://opendata.epa.gov.tw/api/v1/UVSite?%24skip=0&%24top=1000&%24format=json',
         withCredentials : true,
         useDefaultXhrHeader : false,
