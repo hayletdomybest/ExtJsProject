@@ -1,0 +1,4789 @@
+/* /code/MyProject/ext/modern/theme-neptune/sass/var/grid/column/Check.scss:540 */
+.x-checkcolumn .x-checkbox-el {
+    color: rgba(17, 17, 17, 0.54);
+    color: var(--highlight-color);
+    width: 18px;
+    height: 18px;
+}
+/* /code/MyProject/ext/modern/theme-base/sass/etc/mixins/icon.scss:86 */
+.x-big .x-checkcolumn .x-checkbox-el {
+    width: 20px;
+    height: 20px;
+}
+/* /code/MyProject/ext/modern/theme-base/sass/etc/mixins/icon.scss:93 */
+.x-checkcolumn .x-checkbox-el:before {
+    content: 'check_box_outline_blank';
+    font-size: 18px;
+}
+/* /code/MyProject/ext/modern/theme-base/sass/etc/mixins/icon.scss:122 */
+.x-big .x-checkcolumn .x-checkbox-el:before {
+    font-size: 20px;
+}
+/* /code/MyProject/ext/modern/theme-neptune/sass/var/grid/column/Check.scss:551 */
+.x-checkcolumn.x-checked .x-checkbox-el {
+    color: #2196f3;
+    color: var(--base-color);
+}
+/* /code/MyProject/ext/modern/theme-base/sass/etc/mixins/icon.scss:93 */
+.x-checkcolumn.x-checked .x-checkbox-el:before {
+    content: 'check_box';
+}
+/* /code/MyProject/ext/modern/theme-neptune/sass/var/grid/column/Check.scss:556 */
+.x-checkcolumn.x-disabled .x-checkbox-el {
+    color: rgba(17, 17, 17, 0.38);
+    color: var(--disabled-color);
+}
+/* /code/MyProject/ext/modern/theme-neptune/sass/var/grid/column/Check.scss:561 */
+.x-checkcolumn .x-checkbox-el:focus {
+    color: #42a6f5;
+}
+/* /code/MyProject/ext/modern/theme-neptune/sass/var/grid/column/Check.scss:565 */
+.x-checkcolumn.x-checkbox-align-top .x-title-el {
+    margin-top: 2px;
+}
+/* /code/MyProject/ext/modern/theme-neptune/sass/var/grid/column/Check.scss:569 */
+.x-big .x-checkcolumn.x-checkbox-align-top .x-title-el {
+    margin-top: 3px;
+}
+/* /code/MyProject/ext/modern/theme-neptune/sass/var/grid/column/Check.scss:575 */
+.x-checkcolumn.x-checkbox-align-right .x-title-el {
+    margin-right: 4px;
+}
+/* /code/MyProject/ext/modern/theme-neptune/sass/var/grid/column/Check.scss:579 */
+.x-big .x-checkcolumn.x-checkbox-align-right .x-title-el {
+    margin-right: 6px;
+}
+/* /code/MyProject/ext/modern/theme-neptune/sass/var/grid/column/Check.scss:585 */
+.x-checkcolumn.x-checkbox-align-bottom .x-title-el {
+    margin-bottom: 2px;
+}
+/* /code/MyProject/ext/modern/theme-neptune/sass/var/grid/column/Check.scss:589 */
+.x-big .x-checkcolumn.x-checkbox-align-bottom .x-title-el {
+    margin-bottom: 3px;
+}
+/* /code/MyProject/ext/modern/theme-neptune/sass/var/grid/column/Check.scss:595 */
+.x-checkcolumn.x-checkbox-align-left .x-title-el {
+    margin-left: 4px;
+}
+/* /code/MyProject/ext/modern/theme-neptune/sass/var/grid/column/Check.scss:599 */
+.x-big .x-checkcolumn.x-checkbox-align-left .x-title-el {
+    margin-left: 6px;
+}
+/* /code/MyProject/ext/modern/theme-neptune/sass/var/grid/Grid.scss:37 */
+.x-grid .x-resize-marker-el {
+    background-color: #e2e2e2;
+    background-color: var(--divider-color);
+    width: 1px;
+    z-index: 1;
+}
+/* /code/MyProject/ext/modern/theme-neptune/sass/var/mixin/Toolable.scss:30 */
+.x-expandercell-body-el {
+    padding: 0;
+}
+/* /code/MyProject/ext/modern/theme-neptune/sass/var/mixin/Toolable.scss:34 */
+.x-big .x-expandercell-body-el {
+    padding: 0;
+}
+/* /code/MyProject/ext/modern/theme-neptune/sass/var/mixin/Toolable.scss:40 */
+.x-expandercell-tool-dock {
+    padding: 0;
+}
+/* /code/MyProject/ext/modern/theme-neptune/sass/var/mixin/Toolable.scss:44 */
+.x-big .x-expandercell-tool-dock {
+    padding: 0;
+}
+/* /code/MyProject/ext/modern/theme-neptune/sass/var/mixin/Toolable.scss:49 */
+.x-expandercell-tool-dock > .x-body-el {
+    padding: 0;
+}
+/* /code/MyProject/ext/modern/theme-neptune/sass/var/mixin/Toolable.scss:53 */
+.x-big .x-expandercell-tool-dock > .x-body-el {
+    padding: 0;
+}
+/* /code/MyProject/ext/modern/theme-neptune/sass/var/grid/cell/Expander.scss:116 */
+.x-expandercell .x-icon-el {
+    color: #b0b0b0;
+    width: 18px;
+    height: 18px;
+}
+/* /code/MyProject/ext/modern/theme-base/sass/etc/mixins/icon.scss:86 */
+.x-big .x-expandercell .x-icon-el {
+    width: 24px;
+    height: 24px;
+}
+/* /code/MyProject/ext/modern/theme-base/sass/etc/mixins/icon.scss:93 */
+.x-expandercell .x-icon-el:before {
+    content: 'expand_more';
+    font-family: 'Material Icons';
+    font-size: 18px;
+}
+/* /code/MyProject/ext/modern/theme-base/sass/etc/mixins/icon.scss:122 */
+.x-big .x-expandercell .x-icon-el:before {
+    font-size: 24px;
+}
+/* /code/MyProject/ext/modern/theme-base/sass/etc/mixins/icon.scss:93 */
+.x-expandercell.x-expanded .x-icon-el:before {
+    content: 'expand_less';
+    font-family: 'Material Icons';
+}
+/* /code/MyProject/ext/modern/theme-neptune/sass/var/mixin/Toolable.scss:30 */
+.x-widgetcell-body-el {
+    padding: 0;
+}
+/* /code/MyProject/ext/modern/theme-neptune/sass/var/mixin/Toolable.scss:34 */
+.x-big .x-widgetcell-body-el {
+    padding: 0;
+}
+/* /code/MyProject/ext/modern/theme-neptune/sass/var/mixin/Toolable.scss:40 */
+.x-widgetcell-tool-dock {
+    padding: 0;
+}
+/* /code/MyProject/ext/modern/theme-neptune/sass/var/mixin/Toolable.scss:44 */
+.x-big .x-widgetcell-tool-dock {
+    padding: 0;
+}
+/* /code/MyProject/ext/modern/theme-neptune/sass/var/mixin/Toolable.scss:49 */
+.x-widgetcell-tool-dock > .x-body-el {
+    padding: 0;
+}
+/* /code/MyProject/ext/modern/theme-neptune/sass/var/mixin/Toolable.scss:53 */
+.x-big .x-widgetcell-tool-dock > .x-body-el {
+    padding: 0;
+}
+/* /code/MyProject/ext/modern/theme-neptune/sass/var/Toolbar.scss:330 */
+.x-pagingtoolbar {
+    color: #111;
+    color: var(--color);
+}
+/* /code/MyProject/ext/modern/theme-base/sass/etc/mixins/icon.scss:93 */
+.x-pagingtoolbar .x-pagingtoolbar-prev:before {
+    content: "\f104";
+    font-family: FontAwesome;
+}
+/* /code/MyProject/ext/modern/theme-base/sass/etc/mixins/icon.scss:93 */
+.x-pagingtoolbar .x-pagingtoolbar-next:before {
+    content: "\f105";
+    font-family: FontAwesome;
+}
+/* /code/MyProject/ext/modern/theme-neptune/sass/src/grid/plugin/ViewOptions.scss:1 */
+.x-gridviewoptions {
+    background-color: #fafafa;
+    background-color: var(--background-color);
+    border-color: #e1e1e1;
+}
+/* /code/MyProject/ext/modern/theme-neptune/sass/src/grid/plugin/ViewOptions.scss:6 */
+.x-column-options-sortablehandle,
+.x-column-options-visibleindicator,
+.x-column-options-groupindicator,
+.x-column-options-folder,
+.x-column-options-leaf {
+    width: 16px;
+    height: 16px;
+}
+/* /code/MyProject/ext/modern/theme-base/sass/etc/mixins/icon.scss:86 */
+.x-big .x-column-options-sortablehandle,
+.x-big .x-column-options-visibleindicator,
+.x-big .x-column-options-groupindicator,
+.x-big .x-column-options-folder,
+.x-big .x-column-options-leaf {
+    width: 24px;
+    height: 24px;
+}
+/* /code/MyProject/ext/modern/theme-base/sass/etc/mixins/icon.scss:93 */
+.x-column-options-sortablehandle:before,
+.x-column-options-visibleindicator:before,
+.x-column-options-groupindicator:before,
+.x-column-options-folder:before,
+.x-column-options-leaf:before {
+    font-size: 16px;
+}
+/* /code/MyProject/ext/modern/theme-base/sass/etc/mixins/icon.scss:122 */
+.x-big .x-column-options-sortablehandle:before,
+.x-big .x-column-options-visibleindicator:before,
+.x-big .x-column-options-groupindicator:before,
+.x-big .x-column-options-folder:before,
+.x-big .x-column-options-leaf:before {
+    font-size: 24px;
+}
+/* /code/MyProject/ext/modern/theme-base/sass/etc/mixins/icon.scss:93 */
+.x-column-options-sortablehandle:before {
+    content: 'menu';
+}
+/* /code/MyProject/ext/modern/theme-neptune/sass/src/grid/plugin/ViewOptions.scss:22 */
+.x-column-options-sortablehandle.x-icon-el {
+    color: #b0b0b0;
+}
+/* /code/MyProject/ext/modern/theme-base/sass/etc/mixins/icon.scss:93 */
+.x-column-options-visibleindicator:before {
+    content: 'remove_red_eye';
+}
+/* /code/MyProject/ext/modern/theme-neptune/sass/src/grid/plugin/ViewOptions.scss:30 */
+.x-column-options-visibleindicator.x-icon-el {
+    color: #2196f3;
+    color: var(--base-color);
+}
+/* /code/MyProject/ext/modern/theme-base/sass/etc/mixins/icon.scss:93 */
+.x-column-options-groupindicator:before {
+    content: 'group';
+}
+/* /code/MyProject/ext/modern/theme-neptune/sass/src/grid/plugin/ViewOptions.scss:37 */
+.x-column-options-groupindicator.x-icon-el {
+    color: #b0b0b0;
+}
+/* /code/MyProject/ext/modern/theme-neptune/sass/src/grid/plugin/ViewOptions.scss:44 */
+.x-column-options-folder.x-icon-el,
+.x-column-options-leaf.x-icon-el {
+    color: #91e698;
+}
+/* /code/MyProject/ext/modern/theme-base/sass/etc/mixins/icon.scss:93 */
+.x-column-options-folder:before {
+    content: 'folder';
+}
+/* /code/MyProject/ext/modern/theme-base/sass/etc/mixins/icon.scss:93 */
+.x-column-options-leaf:before {
+    content: 'description';
+}
+/* /code/MyProject/ext/modern/theme-neptune/sass/src/grid/plugin/ViewOptions.scss:61 */
+.x-column-options-hidden .x-column-options-visibleindicator.x-icon-el,
+.x-column-options-hidden .x-column-options-text.x-icon-el,
+.x-column-options-hidden .x-column-options-folder.x-icon-el,
+.x-column-options-hidden .x-column-options-leaf.x-icon-el {
+    color: #b0b0b0;
+}
+/* /code/MyProject/ext/modern/theme-neptune/sass/src/grid/plugin/ViewOptions.scss:68 */
+.x-column-options-grouped .x-column-options-groupindicator.x-icon-el {
+    color: #2196f3;
+    color: var(--base-color);
+}
+/* /code/MyProject/ext/modern/theme-neptune/sass/src/layout/Form.scss:1 */
+.x-layout-form {
+    border-spacing: 8px;
+}
+/* /code/MyProject/ext/modern/theme-neptune/sass/src/layout/Form.scss:5 */
+.x-big .x-layout-form {
+    border-spacing: 20px;
+}
+/* /code/MyProject/ext/modern/theme-neptune/sass/var/menu/Separator.scss:82 */
+.x-menuseparator {
+    height: 1px;
+    border-width: 1px 0 0;
+    border-style: solid;
+    border-color: #e2e2e2;
+    border-color: var(--divider-color);
+    margin: 8px 0;
+}
+/* /code/MyProject/ext/modern/theme-neptune/sass/var/panel/Resizer.scss:223 */
+.x-panelresizer.x-north.x-handle,
+.x-panelresizer.x-northeast.x-handle,
+.x-panelresizer.x-southeast.x-handle,
+.x-panelresizer.x-south.x-handle,
+.x-panelresizer.x-southwest.x-handle,
+.x-panelresizer.x-northwest.x-handle {
+    height: 10px;
+}
+/* /code/MyProject/ext/modern/theme-neptune/sass/var/panel/Resizer.scss:227 */
+.x-big .x-panelresizer.x-north.x-handle,
+.x-big .x-panelresizer.x-northeast.x-handle,
+.x-big .x-panelresizer.x-southeast.x-handle,
+.x-big .x-panelresizer.x-south.x-handle,
+.x-big .x-panelresizer.x-southwest.x-handle,
+.x-big .x-panelresizer.x-northwest.x-handle {
+    height: 15px;
+}
+/* /code/MyProject/ext/modern/theme-neptune/sass/var/panel/Resizer.scss:233 */
+.x-panelresizer.x-north.x-splitter,
+.x-panelresizer.x-northeast.x-splitter,
+.x-panelresizer.x-southeast.x-splitter,
+.x-panelresizer.x-south.x-splitter,
+.x-panelresizer.x-southwest.x-splitter,
+.x-panelresizer.x-northwest.x-splitter {
+    height: 10px;
+}
+/* /code/MyProject/ext/modern/theme-neptune/sass/var/panel/Resizer.scss:237 */
+.x-big .x-panelresizer.x-north.x-splitter,
+.x-big .x-panelresizer.x-northeast.x-splitter,
+.x-big .x-panelresizer.x-southeast.x-splitter,
+.x-big .x-panelresizer.x-south.x-splitter,
+.x-big .x-panelresizer.x-southwest.x-splitter,
+.x-big .x-panelresizer.x-northwest.x-splitter {
+    height: 15px;
+}
+/* /code/MyProject/ext/modern/theme-neptune/sass/var/panel/Resizer.scss:251 */
+.x-panelresizer.x-northeast.x-handle,
+.x-panelresizer.x-east.x-handle,
+.x-panelresizer.x-southeast.x-handle,
+.x-panelresizer.x-southwest.x-handle,
+.x-panelresizer.x-west.x-handle,
+.x-panelresizer.x-northwest.x-handle {
+    width: 10px;
+}
+/* /code/MyProject/ext/modern/theme-neptune/sass/var/panel/Resizer.scss:255 */
+.x-big .x-panelresizer.x-northeast.x-handle,
+.x-big .x-panelresizer.x-east.x-handle,
+.x-big .x-panelresizer.x-southeast.x-handle,
+.x-big .x-panelresizer.x-southwest.x-handle,
+.x-big .x-panelresizer.x-west.x-handle,
+.x-big .x-panelresizer.x-northwest.x-handle {
+    width: 15px;
+}
+/* /code/MyProject/ext/modern/theme-neptune/sass/var/panel/Resizer.scss:261 */
+.x-panelresizer.x-northeast.x-splitter,
+.x-panelresizer.x-east.x-splitter,
+.x-panelresizer.x-southeast.x-splitter,
+.x-panelresizer.x-southwest.x-splitter,
+.x-panelresizer.x-west.x-splitter,
+.x-panelresizer.x-northwest.x-splitter {
+    width: 10px;
+}
+/* /code/MyProject/ext/modern/theme-neptune/sass/var/panel/Resizer.scss:265 */
+.x-big .x-panelresizer.x-northeast.x-splitter,
+.x-big .x-panelresizer.x-east.x-splitter,
+.x-big .x-panelresizer.x-southeast.x-splitter,
+.x-big .x-panelresizer.x-southwest.x-splitter,
+.x-big .x-panelresizer.x-west.x-splitter,
+.x-big .x-panelresizer.x-northwest.x-splitter {
+    width: 15px;
+}
+/* /code/MyProject/ext/modern/theme-neptune/sass/var/panel/Resizer.scss:272 */
+.x-panelresizer.x-handle {
+    background-color: transparent;
+}
+/* /code/MyProject/ext/modern/theme-neptune/sass/var/panel/Resizer.scss:276 */
+.x-panelresizer.x-splitter {
+    background-color: #e1e1e1;
+    background-color: var(--faded-color);
+}
+/* /code/MyProject/ext/modern/theme-neptune/sass/var/panel/Resizer.scss:283 */
+.x-panelresizer-proxy.x-handle {
+    border: 1px dashed #0a6ebd;
+}
+/* /code/MyProject/ext/modern/theme-neptune/sass/var/panel/Resizer.scss:289 */
+.x-panelresizer-proxy.x-splitter {
+    background-color: #b0b0b0;
+}
+/* /code/MyProject/ext/modern/theme-neptune/sass/var/panel/Resizer.scss:294 */
+.x-panelresizer-proxy.x-splitter.x-horizontal {
+    width: 10px;
+}
+/* /code/MyProject/ext/modern/theme-neptune/sass/var/panel/Resizer.scss:298 */
+.x-panelresizer-proxy.x-splitter.x-vertical {
+    height: 10px;
+}
+/* /code/MyProject/ext/modern/theme-neptune/sass/var/panel/Resizer.scss:304 */
+.x-panel.x-split-north {
+    padding-top: 10px;
+}
+/* /code/MyProject/ext/modern/theme-neptune/sass/var/panel/Resizer.scss:307 */
+.x-big .x-panel.x-split-north {
+    padding-top: 15px;
+}
+/* /code/MyProject/ext/modern/theme-neptune/sass/var/panel/Resizer.scss:313 */
+.x-panel.x-split-east {
+    padding-right: 10px;
+}
+/* /code/MyProject/ext/modern/theme-neptune/sass/var/panel/Resizer.scss:316 */
+.x-big .x-panel.x-split-east {
+    padding-right: 15px;
+}
+/* /code/MyProject/ext/modern/theme-neptune/sass/var/panel/Resizer.scss:322 */
+.x-panel.x-split-south {
+    padding-bottom: 10px;
+}
+/* /code/MyProject/ext/modern/theme-neptune/sass/var/panel/Resizer.scss:325 */
+.x-big .x-panel.x-split-south {
+    padding-bottom: 15px;
+}
+/* /code/MyProject/ext/modern/theme-neptune/sass/var/panel/Resizer.scss:331 */
+.x-panel.x-split-west {
+    padding-left: 10px;
+}
+/* /code/MyProject/ext/modern/theme-neptune/sass/var/panel/Resizer.scss:334 */
+.x-big .x-panel.x-split-west {
+    padding-left: 15px;
+}
+/* /code/MyProject/ext/modern/theme-neptune/sass/var/Button.scss:1283 */
+.x-tab {
+    color: rgba(255, 255, 255, 0.7);
+    font: 600 14px/16px Roboto, sans-serif;
+    border-radius: 0;
+}
+/* /code/MyProject/ext/modern/theme-neptune/sass/var/Button.scss:1290 */
+.x-big .x-tab {
+    font-size: 14px;
+    line-height: 24px;
+    border-radius: 0;
+}
+/* /code/MyProject/ext/modern/theme-neptune/sass/var/Button.scss:1297 */
+.x-tab .x-inner-el {
+    padding: 16px 6px;
+    border-width: 0;
+    background-color: #2196f3;
+    background-color: var(--base-color);
+    background-image: none;
+    border-radius: 0;
+}
+/* /code/MyProject/ext/modern/theme-neptune/sass/var/Button.scss:1304 */
+.x-big .x-tab .x-inner-el {
+    padding: 20px 4px;
+    border-radius: 0;
+}
+/* /code/MyProject/ext/modern/theme-neptune/sass/var/Button.scss:1311 */
+.x-tab.x-has-text .x-inner-el {
+    padding: 16px 6px;
+}
+/* /code/MyProject/ext/modern/theme-neptune/sass/var/Button.scss:1315 */
+.x-big .x-tab.x-has-text .x-inner-el {
+    padding: 20px 4px;
+}
+/* /code/MyProject/ext/modern/theme-neptune/sass/var/Button.scss:1321 */
+.x-tab .x-icon-el {
+    color: rgba(255, 255, 255, 0.7);
+    width: 16px;
+    height: 16px;
+}
+/* /code/MyProject/ext/modern/theme-base/sass/etc/mixins/icon.scss:86 */
+.x-big .x-tab .x-icon-el {
+    width: 24px;
+    height: 24px;
+}
+/* /code/MyProject/ext/modern/theme-base/sass/etc/mixins/icon.scss:93 */
+.x-tab .x-icon-el:before {
+    font-size: 16px;
+}
+/* /code/MyProject/ext/modern/theme-base/sass/etc/mixins/icon.scss:122 */
+.x-big .x-tab .x-icon-el:before {
+    font-size: 24px;
+}
+/* /code/MyProject/ext/modern/theme-neptune/sass/var/Button.scss:1331 */
+.x-tab.x-has-text.x-icon-align-left .x-icon-el {
+    margin-right: 4px;
+}
+/* /code/MyProject/ext/modern/theme-neptune/sass/var/Button.scss:1335 */
+.x-big .x-tab.x-has-text.x-icon-align-left .x-icon-el {
+    margin-right: 4px;
+}
+/* /code/MyProject/ext/modern/theme-neptune/sass/var/Button.scss:1341 */
+.x-tab.x-has-text.x-icon-align-right .x-icon-el {
+    margin-left: 4px;
+}
+/* /code/MyProject/ext/modern/theme-neptune/sass/var/Button.scss:1345 */
+.x-big .x-tab.x-has-text.x-icon-align-right .x-icon-el {
+    margin-left: 4px;
+}
+/* /code/MyProject/ext/modern/theme-neptune/sass/var/Button.scss:1351 */
+.x-tab.x-has-text.x-icon-align-top .x-icon-el {
+    margin-bottom: 6px;
+}
+/* /code/MyProject/ext/modern/theme-neptune/sass/var/Button.scss:1355 */
+.x-big .x-tab.x-has-text.x-icon-align-top .x-icon-el {
+    margin-bottom: 8px;
+}
+/* /code/MyProject/ext/modern/theme-neptune/sass/var/Button.scss:1361 */
+.x-tab.x-has-text.x-icon-align-bottom .x-icon-el {
+    margin-top: 6px;
+}
+/* /code/MyProject/ext/modern/theme-neptune/sass/var/Button.scss:1365 */
+.x-big .x-tab.x-has-text.x-icon-align-bottom .x-icon-el {
+    margin-top: 8px;
+}
+/* /code/MyProject/ext/modern/theme-neptune/sass/var/Button.scss:1371 */
+.x-tab .x-arrow-el {
+    color: rgba(255, 255, 255, 0.7);
+    width: 16px;
+    height: 16px;
+}
+/* /code/MyProject/ext/modern/theme-base/sass/etc/mixins/icon.scss:86 */
+.x-big .x-tab .x-arrow-el {
+    width: 24px;
+    height: 24px;
+}
+/* /code/MyProject/ext/modern/theme-base/sass/etc/mixins/icon.scss:93 */
+.x-tab .x-arrow-el:before {
+    font-size: 16px;
+}
+/* /code/MyProject/ext/modern/theme-base/sass/etc/mixins/icon.scss:122 */
+.x-big .x-tab .x-arrow-el:before {
+    font-size: 24px;
+}
+/* /code/MyProject/ext/modern/theme-neptune/sass/var/Button.scss:1382 */
+.x-tab.x-arrow-align-right .x-arrow-el {
+    margin-left: 5px;
+}
+/* /code/MyProject/ext/modern/theme-neptune/sass/var/Button.scss:1386 */
+.x-big .x-tab.x-arrow-align-right .x-arrow-el {
+    margin-left: 8px;
+}
+/* /code/MyProject/ext/modern/theme-neptune/sass/var/Button.scss:1402 */
+.x-tab .x-text-el {
+    min-height: 16px;
+}
+/* /code/MyProject/ext/modern/theme-neptune/sass/var/Button.scss:1408 */
+.x-big .x-tab .x-text-el {
+    min-height: 24px;
+}
+/* /code/MyProject/ext/modern/theme-neptune/sass/var/Button.scss:1415 */
+.x-tab .x-badge-el {
+    color: #222;
+    color: var(--accent-foreground-color);
+    border-color: transparent;
+    border-radius: 32px;
+    min-width: 24px;
+    top: 2px;
+    right: 4px;
+    padding: 4px;
+    max-width: 75%;
+    font: 400 12px/16px Roboto, sans-serif;
+    background-color: #ff9800;
+    background-color: var(--accent-color);
+    background-image: none;
+}
+/* /code/MyProject/ext/modern/theme-neptune/sass/var/Button.scss:1429 */
+.x-big .x-tab .x-badge-el {
+    font-size: 13px;
+    line-height: 16px;
+}
+/* /code/MyProject/ext/modern/theme-neptune/sass/var/Button.scss:1438 */
+.x-tab.x-hovered {
+    color: rgba(255, 255, 255, 0.7);
+}
+/* /code/MyProject/ext/modern/theme-neptune/sass/var/Button.scss:1442 */
+.x-tab.x-hovered .x-inner-el {
+    background-color: #2196f3;
+    background-color: var(--base-color);
+    background-image: none;
+}
+/* /code/MyProject/ext/modern/theme-neptune/sass/var/Button.scss:1447 */
+.x-tab.x-hovered .x-icon-el {
+    color: rgba(255, 255, 255, 0.7);
+}
+/* /code/MyProject/ext/modern/theme-neptune/sass/var/Button.scss:1451 */
+.x-tab.x-hovered .x-arrow-el {
+    color: rgba(255, 255, 255, 0.7);
+}
+/* /code/MyProject/ext/modern/theme-neptune/sass/var/Button.scss:1456 */
+.x-tab:before {
+    border-radius: 0;
+}
+/* /code/MyProject/ext/modern/theme-neptune/sass/var/Button.scss:1466 */
+.x-tab.x-pressing,
+.x-tab.x-pressed {
+    color: rgba(255, 255, 255, 0.7);
+}
+/* /code/MyProject/ext/modern/theme-neptune/sass/var/Button.scss:1475 */
+.x-tab.x-pressing .x-inner-el,
+.x-keyboard-mode .x-tab.x-pressing .x-inner-el,
+.x-tab.x-pressed .x-inner-el,
+.x-keyboard-mode .x-tab.x-pressed .x-inner-el {
+    background-color: #2196f3;
+    background-color: var(--base-color);
+    background-image: none;
+}
+/* /code/MyProject/ext/modern/theme-neptune/sass/var/Button.scss:1480 */
+.x-tab.x-pressing .x-icon-el,
+.x-tab.x-pressed .x-icon-el {
+    color: rgba(255, 255, 255, 0.7);
+}
+/* /code/MyProject/ext/modern/theme-neptune/sass/var/Button.scss:1484 */
+.x-tab.x-pressing .x-arrow-el,
+.x-tab.x-pressed .x-arrow-el {
+    color: rgba(255, 255, 255, 0.7);
+}
+/* /code/MyProject/ext/modern/theme-neptune/sass/var/Button.scss:1493 */
+.x-keyboard-mode .x-tab.x-focused {
+    color: rgba(255, 255, 255, 0.7);
+}
+/* /code/MyProject/ext/modern/theme-neptune/sass/var/Button.scss:1497 */
+.x-keyboard-mode .x-tab.x-focused .x-inner-el {
+    background-color: #2196f3;
+    background-color: var(--base-color);
+    background-image: none;
+}
+/* /code/MyProject/ext/modern/theme-neptune/sass/var/Button.scss:1502 */
+.x-keyboard-mode .x-tab.x-focused .x-icon-el {
+    color: rgba(255, 255, 255, 0.7);
+}
+/* /code/MyProject/ext/modern/theme-neptune/sass/var/Button.scss:1506 */
+.x-keyboard-mode .x-tab.x-focused .x-arrow-el {
+    color: rgba(255, 255, 255, 0.7);
+}
+/* /code/MyProject/ext/modern/theme-neptune/sass/var/Button.scss:1511 */
+.x-keyboard-mode .x-tab.x-focused:after {
+    border-radius: 0;
+}
+/* /code/MyProject/ext/modern/theme-neptune/sass/var/Button.scss:1528 */
+.x-big .x-keyboard-mode .x-tab.x-focused:after {
+    border-radius: 0;
+}
+/* /code/MyProject/ext/modern/theme-neptune/sass/var/Button.scss:1535 */
+.x-tab.x-disabled {
+    opacity: 1;
+    color: rgba(255, 255, 255, 0.7);
+}
+/* /code/MyProject/ext/modern/theme-neptune/sass/var/Button.scss:1545 */
+.x-tab.x-disabled .x-icon-el {
+    color: rgba(255, 255, 255, 0.7);
+}
+/* /code/MyProject/ext/modern/theme-neptune/sass/var/Button.scss:1549 */
+.x-tab.x-disabled .x-arrow-el {
+    color: rgba(255, 255, 255, 0.7);
+}
+/* /code/MyProject/ext/modern/theme-neptune/sass/var/tab/Tab.scss:1402 */
+.x-tab .x-close-icon-el {
+    border-radius: 3px;
+    margin: 7px 7px;
+    color: rgba(255, 255, 255, 0.7);
+    width: 12px;
+    height: 12px;
+}
+/* /code/MyProject/ext/modern/theme-base/sass/etc/mixins/icon.scss:86 */
+.x-big .x-tab .x-close-icon-el {
+    width: 18px;
+    height: 18px;
+}
+/* /code/MyProject/ext/modern/theme-base/sass/etc/mixins/icon.scss:93 */
+.x-tab .x-close-icon-el:before {
+    content: 'clear';
+    font-size: 18px;
+}
+/* /code/MyProject/ext/modern/theme-base/sass/etc/mixins/icon.scss:122 */
+.x-big .x-tab .x-close-icon-el:before {
+    font-size: 18px;
+}
+/* /code/MyProject/ext/modern/theme-neptune/sass/var/tab/Tab.scss:1423 */
+.x-tab .x-close-icon-el:hover {
+    color: #fff;
+    color: var(--base-foreground-color);
+}
+/* /code/MyProject/ext/modern/theme-neptune/sass/var/tab/Tab.scss:1434 */
+.x-tab.x-active {
+    color: #fff;
+}
+/* /code/MyProject/ext/modern/theme-neptune/sass/var/tab/Tab.scss:1438 */
+.x-tab.x-active .x-inner-el {
+    background-color: #2196f3;
+    background-color: var(--base-color);
+    background-image: none;
+}
+/* /code/MyProject/ext/modern/theme-neptune/sass/var/tab/Tab.scss:1443 */
+.x-tab.x-active .x-icon-el {
+    color: #fff;
+}
+/* /code/MyProject/ext/modern/theme-neptune/sass/var/tab/Tab.scss:1447 */
+.x-tab.x-active .x-arrow-el {
+    color: #fff;
+}
+/* /code/MyProject/ext/modern/theme-neptune/sass/var/tab/Tab.scss:1451 */
+.x-tab.x-active .x-active-indicator-el {
+    background-color: #ffe0b2;
+    background-color: var(--accent-light-color);
+    height: 4px;
+}
+/* /code/MyProject/ext/modern/theme-neptune/sass/var/tab/Tab.scss:1472 */
+.x-tab.x-active.x-focused {
+    color: #fff;
+}
+/* /code/MyProject/ext/modern/theme-neptune/sass/var/tab/Tab.scss:1481 */
+.x-tab.x-active.x-focused .x-icon-el {
+    color: #fff;
+}
+/* /code/MyProject/ext/modern/theme-neptune/sass/var/tab/Tab.scss:1485 */
+.x-tab.x-active.x-focused .x-arrow-el {
+    color: #fff;
+}
+/* /code/MyProject/ext/modern/theme-neptune/sass/var/tab/Tab.scss:1490 */
+.x-keyboard-mode .x-tab.x-active.x-focused:after {
+    border-color: #d3eafd;
+}
+/* /code/MyProject/ext/modern/theme-neptune/sass/var/Toolbar.scss:330 */
+.x-tabbar {
+    background-color: #2196f3;
+    background-color: var(--base-color);
+    background-image: none;
+    border-color: #e1e1e1;
+    border-color: var(--faded-color);
+}
+/* /code/MyProject/ext/modern/theme-neptune/sass/var/Toolbar.scss:344 */
+.x-tabbar .x-title {
+    color: #fff;
+}
+/* /code/MyProject/ext/modern/theme-neptune/sass/var/Toolbar.scss:362 */
+.x-tabbar-body-el {
+    padding: 0;
+    min-height: 0;
+}
+/* /code/MyProject/ext/modern/theme-neptune/sass/var/Toolbar.scss:367 */
+.x-big .x-tabbar-body-el {
+    min-height: 0;
+}
+/* /code/MyProject/ext/modern/theme-neptune/sass/var/tab/Bar.scss:335 */
+.x-strip-el {
+    background-color: #2196f3;
+    background-color: var(--base-color);
+}
+/* /code/MyProject/ext/modern/theme-neptune/sass/var/grid/cell/Tree.scss:433 */
+.x-treecell {
+    padding: 0 12px;
+    background-position: 23px 0%;
+}
+/* /code/MyProject/ext/modern/theme-neptune/sass/var/grid/cell/Tree.scss:437 */
+.x-big .x-treecell {
+    padding: 0 12px;
+}
+/* /code/MyProject/ext/modern/theme-neptune/sass/var/grid/cell/Tree.scss:442 */
+.x-treecell .x-expander-el {
+    color: #b0b0b0;
+    width: 18px;
+    height: 18px;
+}
+/* /code/MyProject/ext/modern/theme-base/sass/etc/mixins/icon.scss:86 */
+.x-big .x-treecell .x-expander-el {
+    width: 24px;
+    height: 24px;
+}
+/* /code/MyProject/ext/modern/theme-base/sass/etc/mixins/icon.scss:93 */
+.x-treecell .x-expander-el:before {
+    content: 'chevron_right';
+    font-size: 18px;
+}
+/* /code/MyProject/ext/modern/theme-base/sass/etc/mixins/icon.scss:122 */
+.x-big .x-treecell .x-expander-el:before {
+    font-size: 24px;
+}
+/* /code/MyProject/ext/modern/theme-base/sass/etc/mixins/icon.scss:93 */
+.x-treecell.x-expanded .x-expander-el:before {
+    content: 'expand_more';
+}
+/* /code/MyProject/ext/modern/theme-neptune/sass/var/grid/cell/Tree.scss:457 */
+.x-treecell .x-icon-el {
+    color: #b0b0b0;
+    width: 18px;
+    height: 18px;
+    margin: 0 5px;
+}
+/* /code/MyProject/ext/modern/theme-base/sass/etc/mixins/icon.scss:86 */
+.x-big .x-treecell .x-icon-el {
+    width: 24px;
+    height: 24px;
+}
+/* /code/MyProject/ext/modern/theme-base/sass/etc/mixins/icon.scss:93 */
+.x-treecell .x-icon-el:before {
+    font-size: 18px;
+}
+/* /code/MyProject/ext/modern/theme-base/sass/etc/mixins/icon.scss:122 */
+.x-big .x-treecell .x-icon-el:before {
+    font-size: 24px;
+}
+/* /code/MyProject/ext/modern/theme-neptune/sass/var/grid/cell/Tree.scss:469 */
+.x-big .x-treecell .x-icon-el {
+    margin: 0 8px;
+}
+/* /code/MyProject/ext/modern/theme-base/sass/etc/mixins/icon.scss:93 */
+.x-treecell.x-no-icon .x-icon-el:before {
+    content: 'folder';
+}
+/* /code/MyProject/ext/modern/theme-base/sass/etc/mixins/icon.scss:93 */
+.x-treecell.x-no-icon.x-expanded .x-icon-el:before {
+    content: 'folder_open';
+}
+/* /code/MyProject/ext/modern/theme-base/sass/etc/mixins/icon.scss:93 */
+.x-treecell.x-no-icon.x-leaf .x-icon-el:before {
+    content: 'insert_drive_file';
+}
+/* /code/MyProject/ext/modern/theme-neptune/sass/var/grid/cell/Tree.scss:495 */
+.x-big .x-treecell {
+    background-position: 32px 0%;
+}
+/* /code/MyProject/ext/modern/theme-neptune/sass/var/grid/cell/Tree.scss:501 */
+.x-treecell-body-el,
+.x-treecell-tool-dock > .x-body-el {
+    padding: 12px 0;
+}
+/* /code/MyProject/ext/modern/theme-neptune/sass/var/grid/cell/Tree.scss:506 */
+.x-big .x-treecell-body-el,
+.x-big .x-treecell-tool-dock > .x-body-el {
+    padding: 14px 0;
+}
+/* /code/MyProject/ext/modern/theme-material/sass/src/Component.scss:5 */
+:root {
+    --dark-mode: false;
+    --base-color: #2196f3;
+    --base-highlight-color: #64b5f6;
+    --base-light-color: #bbdefb;
+    --base-dark-color: #1976d2;
+    --base-pressed-color: #6ab8f7;
+    --base-focused-color: #42a5f5;
+    --base-invisible-color: rgba(33, 150, 243, 0);
+    --base-foreground-color: #fff;
+    --accent-color: #ff9800;
+    --accent-light-color: #ffe0b2;
+    --accent-dark-color: #f57c00;
+    --accent-pressed-color: #ffb74d;
+    --accent-invisible-color: rgba(255, 152, 0, 0);
+    --accent-foreground-color: #222;
+    --confirm-color: #7cb342;
+    --confirm-pressed-color: #a2cc75;
+    --alert-color: #c62828;
+    --alert-pressed-color: #de5c5c;
+    --color: #111;
+    --reverse-color: #fff;
+    --highlight-color: rgba(17, 17, 17, 0.54);
+    --disabled-color: rgba(17, 17, 17, 0.38);
+    --reverse-disabled-color: rgba(255, 255, 255, 0.38);
+    --divider-color: #e2e2e2;
+    --selected-background-color: #e0e0e0;
+    --hovered-background-color: #eee;
+    --header-background-color: #f5f5f5;
+    --faded-color: #e1e1e1;
+    --background-color: #fafafa;
+    --alt-background-color: #f5f5f5;
+    --reverse-background-color: #303030;
+    --reverse-alt-background-color: #3a3a3a;
+    --overlay-color: rgba(0, 0, 0, 0.03);
+    --content-padding: 16px;
+    --listitem-selected-background-color: #e0e0e0;
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-3d-rotation::before {
+    content: '3d_rotation';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-accessibility::before {
+    content: 'accessibility';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-accessible::before {
+    content: 'accessible';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-account-balance::before {
+    content: 'account_balance';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-account-balance-wallet::before {
+    content: 'account_balance_wallet';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-account-box::before {
+    content: 'account_box';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-account-circle::before {
+    content: 'account_circle';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-add-shopping-cart::before {
+    content: 'add_shopping_cart';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-alarm::before {
+    content: 'alarm';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-alarm-add::before {
+    content: 'alarm_add';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-alarm-off::before {
+    content: 'alarm_off';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-alarm-on::before {
+    content: 'alarm_on';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-all-out::before {
+    content: 'all_out';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-android::before {
+    content: 'android';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-announcement::before {
+    content: 'announcement';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-aspect-ratio::before {
+    content: 'aspect_ratio';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-assessment::before {
+    content: 'assessment';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-assignment::before {
+    content: 'assignment';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-assignment-ind::before {
+    content: 'assignment_ind';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-assignment-late::before {
+    content: 'assignment_late';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-assignment-return::before {
+    content: 'assignment_return';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-assignment-returned::before {
+    content: 'assignment_returned';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-assignment-turned-in::before {
+    content: 'assignment_turned_in';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-autorenew::before {
+    content: 'autorenew';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-backup::before {
+    content: 'backup';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-book::before {
+    content: 'book';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-bookmark::before {
+    content: 'bookmark';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-bookmark-border::before {
+    content: 'bookmark_border';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-bug-report::before {
+    content: 'bug_report';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-build::before {
+    content: 'build';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-cached::before {
+    content: 'cached';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-camera-enhance::before {
+    content: 'camera_enhance';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-card-giftcard::before {
+    content: 'card_giftcard';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-card-membership::before {
+    content: 'card_membership';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-card-travel::before {
+    content: 'card_travel';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-change-history::before {
+    content: 'change_history';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-check-circle::before {
+    content: 'check_circle';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-chrome-reader-mode::before {
+    content: 'chrome_reader_mode';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-class::before {
+    content: 'class';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-code::before {
+    content: 'code';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-compare-arrows::before {
+    content: 'compare_arrows';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-copyright::before {
+    content: 'copyright';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-credit-card::before {
+    content: 'credit_card';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-dashboard::before {
+    content: 'dashboard';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-date-range::before {
+    content: 'date_range';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-delete::before {
+    content: 'delete';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-delete-forever::before {
+    content: 'delete_forever';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-description::before {
+    content: 'description';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-dns::before {
+    content: 'dns';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-done::before {
+    content: 'done';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-done-all::before {
+    content: 'done_all';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-donut-large::before {
+    content: 'donut_large';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-donut-small::before {
+    content: 'donut_small';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-eject::before {
+    content: 'eject';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-euro-symbol::before {
+    content: 'euro_symbol';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-event::before {
+    content: 'event';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-event-seat::before {
+    content: 'event_seat';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-exit-to-app::before {
+    content: 'exit_to_app';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-explore::before {
+    content: 'explore';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-extension::before {
+    content: 'extension';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-face::before {
+    content: 'face';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-favorite::before {
+    content: 'favorite';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-favorite-border::before {
+    content: 'favorite_border';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-feedback::before {
+    content: 'feedback';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-find-in-page::before {
+    content: 'find_in_page';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-find-replace::before {
+    content: 'find_replace';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-fingerprint::before {
+    content: 'fingerprint';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-flight-land::before {
+    content: 'flight_land';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-flight-takeoff::before {
+    content: 'flight_takeoff';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-flip-to-back::before {
+    content: 'flip_to_back';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-flip-to-front::before {
+    content: 'flip_to_front';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-g-translate::before {
+    content: 'g_translate';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-gavel::before {
+    content: 'gavel';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-get-app::before {
+    content: 'get_app';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-gif::before {
+    content: 'gif';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-grade::before {
+    content: 'grade';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-group-work::before {
+    content: 'group_work';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-help::before {
+    content: 'help';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-help-outline::before {
+    content: 'help_outline';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-highlight-off::before {
+    content: 'highlight_off';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-history::before {
+    content: 'history';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-home::before {
+    content: 'home';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-hourglass-empty::before {
+    content: 'hourglass_empty';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-hourglass-full::before {
+    content: 'hourglass_full';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-http::before {
+    content: 'http';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-https::before {
+    content: 'https';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-important-devices::before {
+    content: 'important_devices';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-info::before {
+    content: 'info';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-info-outline::before {
+    content: 'info_outline';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-input::before {
+    content: 'input';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-invert-colors::before {
+    content: 'invert_colors';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-label::before {
+    content: 'label';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-label-outline::before {
+    content: 'label_outline';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-language::before {
+    content: 'language';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-launch::before {
+    content: 'launch';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-lightbulb-outline::before {
+    content: 'lightbulb_outline';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-line-style::before {
+    content: 'line_style';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-line-weight::before {
+    content: 'line_weight';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-list::before {
+    content: 'list';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-lock::before {
+    content: 'lock';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-lock-open::before {
+    content: 'lock_open';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-lock-outline::before {
+    content: 'lock_outline';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-loyalty::before {
+    content: 'loyalty';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-markunread-mailbox::before {
+    content: 'markunread_mailbox';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-motorcycle::before {
+    content: 'motorcycle';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-note-add::before {
+    content: 'note_add';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-offline-pin::before {
+    content: 'offline_pin';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-opacity::before {
+    content: 'opacity';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-open-in-browser::before {
+    content: 'open_in_browser';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-open-in-new::before {
+    content: 'open_in_new';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-open-with::before {
+    content: 'open_with';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-pageview::before {
+    content: 'pageview';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-pan-tool::before {
+    content: 'pan_tool';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-payment::before {
+    content: 'payment';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-perm-camera-mic::before {
+    content: 'perm_camera_mic';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-perm-contact-calendar::before {
+    content: 'perm_contact_calendar';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-perm-data-setting::before {
+    content: 'perm_data_setting';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-perm-device-information::before {
+    content: 'perm_device_information';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-perm-identity::before {
+    content: 'perm_identity';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-perm-media::before {
+    content: 'perm_media';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-perm-phone-msg::before {
+    content: 'perm_phone_msg';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-perm-scan-wifi::before {
+    content: 'perm_scan_wifi';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-pets::before {
+    content: 'pets';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-picture-in-picture::before {
+    content: 'picture_in_picture';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-picture-in-picture-alt::before {
+    content: 'picture_in_picture_alt';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-play-for-work::before {
+    content: 'play_for_work';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-polymer::before {
+    content: 'polymer';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-power-settings-new::before {
+    content: 'power_settings_new';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-pregnant-woman::before {
+    content: 'pregnant_woman';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-print::before {
+    content: 'print';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-query-builder::before {
+    content: 'query_builder';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-question-answer::before {
+    content: 'question_answer';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-receipt::before {
+    content: 'receipt';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-record-voice-over::before {
+    content: 'record_voice_over';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-redeem::before {
+    content: 'redeem';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-remove-shopping-cart::before {
+    content: 'remove_shopping_cart';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-reorder::before {
+    content: 'reorder';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-report-problem::before {
+    content: 'report_problem';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-restore::before {
+    content: 'restore';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-restore-page::before {
+    content: 'restore_page';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-room::before {
+    content: 'room';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-rounded-corner::before {
+    content: 'rounded_corner';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-rowing::before {
+    content: 'rowing';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-schedule::before {
+    content: 'schedule';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-search::before {
+    content: 'search';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-settings::before {
+    content: 'settings';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-settings-applications::before {
+    content: 'settings_applications';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-settings-backup-restore::before {
+    content: 'settings_backup_restore';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-settings-bluetooth::before {
+    content: 'settings_bluetooth';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-settings-brightness::before {
+    content: 'settings_brightness';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-settings-cell::before {
+    content: 'settings_cell';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-settings-ethernet::before {
+    content: 'settings_ethernet';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-settings-input-antenna::before {
+    content: 'settings_input_antenna';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-settings-input-component::before {
+    content: 'settings_input_component';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-settings-input-composite::before {
+    content: 'settings_input_composite';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-settings-input-hdmi::before {
+    content: 'settings_input_hdmi';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-settings-input-svideo::before {
+    content: 'settings_input_svideo';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-settings-overscan::before {
+    content: 'settings_overscan';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-settings-phone::before {
+    content: 'settings_phone';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-settings-power::before {
+    content: 'settings_power';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-settings-remote::before {
+    content: 'settings_remote';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-settings-voice::before {
+    content: 'settings_voice';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-shop::before {
+    content: 'shop';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-shop-two::before {
+    content: 'shop_two';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-shopping-basket::before {
+    content: 'shopping_basket';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-shopping-cart::before {
+    content: 'shopping_cart';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-speaker-notes::before {
+    content: 'speaker_notes';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-speaker-notes-off::before {
+    content: 'speaker_notes_off';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-spellcheck::before {
+    content: 'spellcheck';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-star-rate::before {
+    content: 'star_rate';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-stars::before {
+    content: 'stars';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-store::before {
+    content: 'store';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-subject::before {
+    content: 'subject';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-supervisor-account::before {
+    content: 'supervisor_account';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-swap-horiz::before {
+    content: 'swap_horiz';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-swap-vert::before {
+    content: 'swap_vert';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-swap-vertical-circle::before {
+    content: 'swap_vertical_circle';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-system-update-alt::before {
+    content: 'system_update_alt';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-tab::before {
+    content: 'tab';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-tab-unselected::before {
+    content: 'tab_unselected';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-theaters::before {
+    content: 'theaters';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-thumb-down::before {
+    content: 'thumb_down';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-thumb-up::before {
+    content: 'thumb_up';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-thumbs-up-down::before {
+    content: 'thumbs_up_down';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-timeline::before {
+    content: 'timeline';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-toc::before {
+    content: 'toc';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-today::before {
+    content: 'today';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-toll::before {
+    content: 'toll';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-touch-app::before {
+    content: 'touch_app';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-track-changes::before {
+    content: 'track_changes';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-translate::before {
+    content: 'translate';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-trending-down::before {
+    content: 'trending_down';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-trending-flat::before {
+    content: 'trending_flat';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-trending-up::before {
+    content: 'trending_up';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-turned-in::before {
+    content: 'turned_in';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-turned-in-not::before {
+    content: 'turned_in_not';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-update::before {
+    content: 'update';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-verified-user::before {
+    content: 'verified_user';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-view-agenda::before {
+    content: 'view_agenda';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-view-array::before {
+    content: 'view_array';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-view-carousel::before {
+    content: 'view_carousel';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-view-column::before {
+    content: 'view_column';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-view-day::before {
+    content: 'view_day';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-view-headline::before {
+    content: 'view_headline';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-view-list::before {
+    content: 'view_list';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-view-module::before {
+    content: 'view_module';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-view-quilt::before {
+    content: 'view_quilt';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-view-stream::before {
+    content: 'view_stream';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-view-week::before {
+    content: 'view_week';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-visibility::before {
+    content: 'visibility';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-visibility-off::before {
+    content: 'visibility_off';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-watch-later::before {
+    content: 'watch_later';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-work::before {
+    content: 'work';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-youtube-searched-for::before {
+    content: 'youtube_searched_for';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-zoom-in::before {
+    content: 'zoom_in';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-zoom-out::before {
+    content: 'zoom_out';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-add-alert::before {
+    content: 'add_alert';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-error::before {
+    content: 'error';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-error-outline::before {
+    content: 'error_outline';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-warning::before {
+    content: 'warning';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-add-to-queue::before {
+    content: 'add_to_queue';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-airplay::before {
+    content: 'airplay';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-album::before {
+    content: 'album';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-art-track::before {
+    content: 'art_track';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-av-timer::before {
+    content: 'av_timer';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-branding-watermark::before {
+    content: 'branding_watermark';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-call-to-action::before {
+    content: 'call_to_action';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-closed-caption::before {
+    content: 'closed_caption';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-equalizer::before {
+    content: 'equalizer';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-explicit::before {
+    content: 'explicit';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-fast-forward::before {
+    content: 'fast_forward';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-fast-rewind::before {
+    content: 'fast_rewind';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-featured-play-list::before {
+    content: 'featured_play_list';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-featured-video::before {
+    content: 'featured_video';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-fiber-dvr::before {
+    content: 'fiber_dvr';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-fiber-manual-record::before {
+    content: 'fiber_manual_record';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-fiber-new::before {
+    content: 'fiber_new';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-fiber-pin::before {
+    content: 'fiber_pin';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-fiber-smart-record::before {
+    content: 'fiber_smart_record';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-forward-10::before {
+    content: 'forward_10';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-forward-30::before {
+    content: 'forward_30';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-forward-5::before {
+    content: 'forward_5';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-games::before {
+    content: 'games';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-hd::before {
+    content: 'hd';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-hearing::before {
+    content: 'hearing';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-high-quality::before {
+    content: 'high_quality';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-library-add::before {
+    content: 'library_add';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-library-books::before {
+    content: 'library_books';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-library-music::before {
+    content: 'library_music';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-loop::before {
+    content: 'loop';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-mic::before {
+    content: 'mic';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-mic-none::before {
+    content: 'mic_none';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-mic-off::before {
+    content: 'mic_off';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-movie::before {
+    content: 'movie';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-music-video::before {
+    content: 'music_video';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-new-releases::before {
+    content: 'new_releases';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-not-interested::before {
+    content: 'not_interested';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-note::before {
+    content: 'note';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-pause::before {
+    content: 'pause';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-pause-circle-filled::before {
+    content: 'pause_circle_filled';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-pause-circle-outline::before {
+    content: 'pause_circle_outline';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-play-arrow::before {
+    content: 'play_arrow';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-play-circle-filled::before {
+    content: 'play_circle_filled';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-play-circle-outline::before {
+    content: 'play_circle_outline';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-playlist-add::before {
+    content: 'playlist_add';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-playlist-add-check::before {
+    content: 'playlist_add_check';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-playlist-play::before {
+    content: 'playlist_play';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-queue::before {
+    content: 'queue';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-queue-music::before {
+    content: 'queue_music';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-queue-play-next::before {
+    content: 'queue_play_next';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-radio::before {
+    content: 'radio';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-recent-actors::before {
+    content: 'recent_actors';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-remove-from-queue::before {
+    content: 'remove_from_queue';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-repeat::before {
+    content: 'repeat';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-repeat-one::before {
+    content: 'repeat_one';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-replay::before {
+    content: 'replay';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-replay-10::before {
+    content: 'replay_10';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-replay-30::before {
+    content: 'replay_30';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-replay-5::before {
+    content: 'replay_5';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-shuffle::before {
+    content: 'shuffle';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-skip-next::before {
+    content: 'skip_next';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-skip-previous::before {
+    content: 'skip_previous';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-slow-motion-video::before {
+    content: 'slow_motion_video';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-snooze::before {
+    content: 'snooze';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-sort-by-alpha::before {
+    content: 'sort_by_alpha';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-stop::before {
+    content: 'stop';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-subscriptions::before {
+    content: 'subscriptions';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-subtitles::before {
+    content: 'subtitles';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-surround-sound::before {
+    content: 'surround_sound';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-video-call::before {
+    content: 'video_call';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-video-label::before {
+    content: 'video_label';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-video-library::before {
+    content: 'video_library';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-videocam::before {
+    content: 'videocam';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-videocam-off::before {
+    content: 'videocam_off';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-volume-down::before {
+    content: 'volume_down';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-volume-mute::before {
+    content: 'volume_mute';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-volume-off::before {
+    content: 'volume_off';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-volume-up::before {
+    content: 'volume_up';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-web::before {
+    content: 'web';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-web-asset::before {
+    content: 'web_asset';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-business::before {
+    content: 'business';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-call::before {
+    content: 'call';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-call-end::before {
+    content: 'call_end';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-call-made::before {
+    content: 'call_made';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-call-merge::before {
+    content: 'call_merge';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-call-missed::before {
+    content: 'call_missed';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-call-missed-outgoing::before {
+    content: 'call_missed_outgoing';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-call-received::before {
+    content: 'call_received';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-call-split::before {
+    content: 'call_split';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-chat::before {
+    content: 'chat';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-chat-bubble::before {
+    content: 'chat_bubble';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-chat-bubble-outline::before {
+    content: 'chat_bubble_outline';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-clear-all::before {
+    content: 'clear_all';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-comment::before {
+    content: 'comment';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-contact-mail::before {
+    content: 'contact_mail';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-contact-phone::before {
+    content: 'contact_phone';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-contacts::before {
+    content: 'contacts';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-dialer-sip::before {
+    content: 'dialer_sip';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-dialpad::before {
+    content: 'dialpad';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-email::before {
+    content: 'email';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-forum::before {
+    content: 'forum';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-import-contacts::before {
+    content: 'import_contacts';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-import-export::before {
+    content: 'import_export';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-invert-colors-off::before {
+    content: 'invert_colors_off';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-live-help::before {
+    content: 'live_help';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-location-off::before {
+    content: 'location_off';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-location-on::before {
+    content: 'location_on';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-mail-outline::before {
+    content: 'mail_outline';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-message::before {
+    content: 'message';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-no-sim::before {
+    content: 'no_sim';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-phone::before {
+    content: 'phone';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-phonelink-erase::before {
+    content: 'phonelink_erase';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-phonelink-lock::before {
+    content: 'phonelink_lock';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-phonelink-ring::before {
+    content: 'phonelink_ring';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-phonelink-setup::before {
+    content: 'phonelink_setup';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-portable-wifi-off::before {
+    content: 'portable_wifi_off';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-present-to-all::before {
+    content: 'present_to_all';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-ring-volume::before {
+    content: 'ring_volume';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-rss-feed::before {
+    content: 'rss_feed';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-screen-share::before {
+    content: 'screen_share';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-speaker-phone::before {
+    content: 'speaker_phone';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-stay-current-landscape::before {
+    content: 'stay_current_landscape';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-stay-current-portrait::before {
+    content: 'stay_current_portrait';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-stay-primary-landscape::before {
+    content: 'stay_primary_landscape';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-stay-primary-portrait::before {
+    content: 'stay_primary_portrait';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-stop-screen-share::before {
+    content: 'stop_screen_share';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-swap-calls::before {
+    content: 'swap_calls';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-textsms::before {
+    content: 'textsms';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-voicemail::before {
+    content: 'voicemail';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-vpn-key::before {
+    content: 'vpn_key';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-add::before {
+    content: 'add';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-add-box::before {
+    content: 'add_box';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-add-circle::before {
+    content: 'add_circle';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-add-circle-outline::before {
+    content: 'add_circle_outline';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-archive::before {
+    content: 'archive';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-backspace::before {
+    content: 'backspace';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-block::before {
+    content: 'block';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-clear::before {
+    content: 'clear';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-content-copy::before {
+    content: 'content_copy';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-content-cut::before {
+    content: 'content_cut';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-content-paste::before {
+    content: 'content_paste';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-create::before {
+    content: 'create';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-delete-sweep::before {
+    content: 'delete_sweep';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-drafts::before {
+    content: 'drafts';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-filter-list::before {
+    content: 'filter_list';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-flag::before {
+    content: 'flag';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-font-download::before {
+    content: 'font_download';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-forward::before {
+    content: 'forward';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-gesture::before {
+    content: 'gesture';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-inbox::before {
+    content: 'inbox';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-link::before {
+    content: 'link';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-low-priority::before {
+    content: 'low_priority';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-mail::before {
+    content: 'mail';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-markunread::before {
+    content: 'markunread';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-move-to-inbox::before {
+    content: 'move_to_inbox';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-next-week::before {
+    content: 'next_week';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-redo::before {
+    content: 'redo';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-remove::before {
+    content: 'remove';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-remove-circle::before {
+    content: 'remove_circle';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-remove-circle-outline::before {
+    content: 'remove_circle_outline';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-reply::before {
+    content: 'reply';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-reply-all::before {
+    content: 'reply_all';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-report::before {
+    content: 'report';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-save::before {
+    content: 'save';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-select-all::before {
+    content: 'select_all';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-send::before {
+    content: 'send';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-sort::before {
+    content: 'sort';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-text-format::before {
+    content: 'text_format';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-unarchive::before {
+    content: 'unarchive';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-undo::before {
+    content: 'undo';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-weekend::before {
+    content: 'weekend';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-access-alarm::before {
+    content: 'access_alarm';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-access-alarms::before {
+    content: 'access_alarms';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-access-time::before {
+    content: 'access_time';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-add-alarm::before {
+    content: 'add_alarm';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-airplanemode-active::before {
+    content: 'airplanemode_active';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-airplanemode-inactive::before {
+    content: 'airplanemode_inactive';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-battery-alert::before {
+    content: 'battery_alert';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-battery-charging-full::before {
+    content: 'battery_charging_full';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-battery-full::before {
+    content: 'battery_full';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-battery-std::before {
+    content: 'battery_std';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-battery-unknown::before {
+    content: 'battery_unknown';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-bluetooth::before {
+    content: 'bluetooth';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-bluetooth-connected::before {
+    content: 'bluetooth_connected';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-bluetooth-disabled::before {
+    content: 'bluetooth_disabled';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-bluetooth-searching::before {
+    content: 'bluetooth_searching';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-brightness-auto::before {
+    content: 'brightness_auto';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-brightness-high::before {
+    content: 'brightness_high';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-brightness-low::before {
+    content: 'brightness_low';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-brightness-medium::before {
+    content: 'brightness_medium';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-data-usage::before {
+    content: 'data_usage';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-developer-mode::before {
+    content: 'developer_mode';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-devices::before {
+    content: 'devices';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-dvr::before {
+    content: 'dvr';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-gps-fixed::before {
+    content: 'gps_fixed';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-gps-not-fixed::before {
+    content: 'gps_not_fixed';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-gps-off::before {
+    content: 'gps_off';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-graphic-eq::before {
+    content: 'graphic_eq';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-location-disabled::before {
+    content: 'location_disabled';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-location-searching::before {
+    content: 'location_searching';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-network-cell::before {
+    content: 'network_cell';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-network-wifi::before {
+    content: 'network_wifi';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-nfc::before {
+    content: 'nfc';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-screen-lock-landscape::before {
+    content: 'screen_lock_landscape';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-screen-lock-portrait::before {
+    content: 'screen_lock_portrait';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-screen-lock-rotation::before {
+    content: 'screen_lock_rotation';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-screen-rotation::before {
+    content: 'screen_rotation';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-sd-storage::before {
+    content: 'sd_storage';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-settings-system-daydream::before {
+    content: 'settings_system_daydream';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-signal-cellular-4-bar::before {
+    content: 'signal_cellular_4_bar';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-signal-cellular-connected-no-internet-4-bar::before {
+    content: 'signal_cellular_connected_no_internet_4_bar';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-signal-cellular-no-sim::before {
+    content: 'signal_cellular_no_sim';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-signal-cellular-null::before {
+    content: 'signal_cellular_null';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-signal-cellular-off::before {
+    content: 'signal_cellular_off';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-signal-wifi-4-bar::before {
+    content: 'signal_wifi_4_bar';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-signal-wifi-4-bar-lock::before {
+    content: 'signal_wifi_4_bar_lock';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-signal-wifi-off::before {
+    content: 'signal_wifi_off';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-storage::before {
+    content: 'storage';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-usb::before {
+    content: 'usb';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-wallpaper::before {
+    content: 'wallpaper';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-widgets::before {
+    content: 'widgets';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-wifi-lock::before {
+    content: 'wifi_lock';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-wifi-tethering::before {
+    content: 'wifi_tethering';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-attach-file::before {
+    content: 'attach_file';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-attach-money::before {
+    content: 'attach_money';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-border-all::before {
+    content: 'border_all';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-border-bottom::before {
+    content: 'border_bottom';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-border-clear::before {
+    content: 'border_clear';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-border-color::before {
+    content: 'border_color';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-border-horizontal::before {
+    content: 'border_horizontal';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-border-inner::before {
+    content: 'border_inner';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-border-left::before {
+    content: 'border_left';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-border-outer::before {
+    content: 'border_outer';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-border-right::before {
+    content: 'border_right';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-border-style::before {
+    content: 'border_style';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-border-top::before {
+    content: 'border_top';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-border-vertical::before {
+    content: 'border_vertical';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-bubble-chart::before {
+    content: 'bubble_chart';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-drag-handle::before {
+    content: 'drag_handle';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-format-align-center::before {
+    content: 'format_align_center';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-format-align-justify::before {
+    content: 'format_align_justify';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-format-align-left::before {
+    content: 'format_align_left';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-format-align-right::before {
+    content: 'format_align_right';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-format-bold::before {
+    content: 'format_bold';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-format-clear::before {
+    content: 'format_clear';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-format-color-fill::before {
+    content: 'format_color_fill';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-format-color-reset::before {
+    content: 'format_color_reset';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-format-color-text::before {
+    content: 'format_color_text';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-format-indent-decrease::before {
+    content: 'format_indent_decrease';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-format-indent-increase::before {
+    content: 'format_indent_increase';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-format-italic::before {
+    content: 'format_italic';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-format-line-spacing::before {
+    content: 'format_line_spacing';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-format-list-bulleted::before {
+    content: 'format_list_bulleted';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-format-list-numbered::before {
+    content: 'format_list_numbered';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-format-paint::before {
+    content: 'format_paint';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-format-quote::before {
+    content: 'format_quote';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-format-shapes::before {
+    content: 'format_shapes';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-format-size::before {
+    content: 'format_size';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-format-strikethrough::before {
+    content: 'format_strikethrough';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-format-textdirection-l-to-r::before {
+    content: 'format_textdirection_l_to_r';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-format-textdirection-r-to-l::before {
+    content: 'format_textdirection_r_to_l';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-format-underlined::before {
+    content: 'format_underlined';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-functions::before {
+    content: 'functions';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-highlight::before {
+    content: 'highlight';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-insert-chart::before {
+    content: 'insert_chart';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-insert-comment::before {
+    content: 'insert_comment';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-insert-drive-file::before {
+    content: 'insert_drive_file';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-insert-emoticon::before {
+    content: 'insert_emoticon';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-insert-invitation::before {
+    content: 'insert_invitation';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-insert-link::before {
+    content: 'insert_link';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-insert-photo::before {
+    content: 'insert_photo';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-linear-scale::before {
+    content: 'linear_scale';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-merge-type::before {
+    content: 'merge_type';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-mode-comment::before {
+    content: 'mode_comment';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-mode-edit::before {
+    content: 'mode_edit';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-monetization-on::before {
+    content: 'monetization_on';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-money-off::before {
+    content: 'money_off';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-multiline-chart::before {
+    content: 'multiline_chart';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-pie-chart::before {
+    content: 'pie_chart';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-pie-chart-outlined::before {
+    content: 'pie_chart_outlined';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-publish::before {
+    content: 'publish';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-short-text::before {
+    content: 'short_text';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-show-chart::before {
+    content: 'show_chart';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-space-bar::before {
+    content: 'space_bar';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-strikethrough-s::before {
+    content: 'strikethrough_s';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-text-fields::before {
+    content: 'text_fields';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-title::before {
+    content: 'title';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-vertical-align-bottom::before {
+    content: 'vertical_align_bottom';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-vertical-align-center::before {
+    content: 'vertical_align_center';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-vertical-align-top::before {
+    content: 'vertical_align_top';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-wrap-text::before {
+    content: 'wrap_text';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-attachment::before {
+    content: 'attachment';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-cloud::before {
+    content: 'cloud';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-cloud-circle::before {
+    content: 'cloud_circle';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-cloud-done::before {
+    content: 'cloud_done';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-cloud-download::before {
+    content: 'cloud_download';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-cloud-off::before {
+    content: 'cloud_off';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-cloud-queue::before {
+    content: 'cloud_queue';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-cloud-upload::before {
+    content: 'cloud_upload';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-create-new-folder::before {
+    content: 'create_new_folder';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-file-download::before {
+    content: 'file_download';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-file-upload::before {
+    content: 'file_upload';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-folder::before {
+    content: 'folder';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-folder-open::before {
+    content: 'folder_open';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-folder-shared::before {
+    content: 'folder_shared';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-cast::before {
+    content: 'cast';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-cast-connected::before {
+    content: 'cast_connected';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-computer::before {
+    content: 'computer';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-desktop-mac::before {
+    content: 'desktop_mac';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-desktop-windows::before {
+    content: 'desktop_windows';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-developer-board::before {
+    content: 'developer_board';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-device-hub::before {
+    content: 'device_hub';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-devices-other::before {
+    content: 'devices_other';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-dock::before {
+    content: 'dock';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-gamepad::before {
+    content: 'gamepad';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-headset::before {
+    content: 'headset';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-headset-mic::before {
+    content: 'headset_mic';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-keyboard::before {
+    content: 'keyboard';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-keyboard-arrow-down::before {
+    content: 'keyboard_arrow_down';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-keyboard-arrow-left::before {
+    content: 'keyboard_arrow_left';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-keyboard-arrow-right::before {
+    content: 'keyboard_arrow_right';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-keyboard-arrow-up::before {
+    content: 'keyboard_arrow_up';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-keyboard-backspace::before {
+    content: 'keyboard_backspace';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-keyboard-capslock::before {
+    content: 'keyboard_capslock';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-keyboard-hide::before {
+    content: 'keyboard_hide';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-keyboard-return::before {
+    content: 'keyboard_return';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-keyboard-tab::before {
+    content: 'keyboard_tab';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-keyboard-voice::before {
+    content: 'keyboard_voice';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-laptop::before {
+    content: 'laptop';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-laptop-chromebook::before {
+    content: 'laptop_chromebook';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-laptop-mac::before {
+    content: 'laptop_mac';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-laptop-windows::before {
+    content: 'laptop_windows';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-memory::before {
+    content: 'memory';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-mouse::before {
+    content: 'mouse';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-phone-android::before {
+    content: 'phone_android';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-phone-iphone::before {
+    content: 'phone_iphone';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-phonelink::before {
+    content: 'phonelink';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-phonelink-off::before {
+    content: 'phonelink_off';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-power-input::before {
+    content: 'power_input';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-router::before {
+    content: 'router';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-scanner::before {
+    content: 'scanner';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-security::before {
+    content: 'security';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-sim-card::before {
+    content: 'sim_card';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-smartphone::before {
+    content: 'smartphone';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-speaker::before {
+    content: 'speaker';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-speaker-group::before {
+    content: 'speaker_group';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-tablet::before {
+    content: 'tablet';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-tablet-android::before {
+    content: 'tablet_android';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-tablet-mac::before {
+    content: 'tablet_mac';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-toys::before {
+    content: 'toys';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-tv::before {
+    content: 'tv';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-videogame-asset::before {
+    content: 'videogame_asset';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-watch::before {
+    content: 'watch';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-add-a-photo::before {
+    content: 'add_a_photo';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-add-to-photos::before {
+    content: 'add_to_photos';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-adjust::before {
+    content: 'adjust';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-assistant::before {
+    content: 'assistant';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-assistant-photo::before {
+    content: 'assistant_photo';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-audiotrack::before {
+    content: 'audiotrack';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-blur-circular::before {
+    content: 'blur_circular';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-blur-linear::before {
+    content: 'blur_linear';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-blur-off::before {
+    content: 'blur_off';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-blur-on::before {
+    content: 'blur_on';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-brightness-1::before {
+    content: 'brightness_1';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-brightness-2::before {
+    content: 'brightness_2';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-brightness-3::before {
+    content: 'brightness_3';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-brightness-4::before {
+    content: 'brightness_4';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-brightness-5::before {
+    content: 'brightness_5';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-brightness-6::before {
+    content: 'brightness_6';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-brightness-7::before {
+    content: 'brightness_7';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-broken-image::before {
+    content: 'broken_image';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-brush::before {
+    content: 'brush';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-burst-mode::before {
+    content: 'burst_mode';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-camera::before {
+    content: 'camera';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-camera-alt::before {
+    content: 'camera_alt';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-camera-front::before {
+    content: 'camera_front';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-camera-rear::before {
+    content: 'camera_rear';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-camera-roll::before {
+    content: 'camera_roll';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-center-focus-strong::before {
+    content: 'center_focus_strong';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-center-focus-weak::before {
+    content: 'center_focus_weak';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-collections::before {
+    content: 'collections';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-collections-bookmark::before {
+    content: 'collections_bookmark';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-color-lens::before {
+    content: 'color_lens';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-colorize::before {
+    content: 'colorize';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-compare::before {
+    content: 'compare';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-control-point::before {
+    content: 'control_point';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-control-point-duplicate::before {
+    content: 'control_point_duplicate';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-crop::before {
+    content: 'crop';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-crop-16-9::before {
+    content: 'crop_16_9';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-crop-3-2::before {
+    content: 'crop_3_2';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-crop-5-4::before {
+    content: 'crop_5_4';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-crop-7-5::before {
+    content: 'crop_7_5';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-crop-din::before {
+    content: 'crop_din';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-crop-free::before {
+    content: 'crop_free';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-crop-landscape::before {
+    content: 'crop_landscape';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-crop-original::before {
+    content: 'crop_original';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-crop-portrait::before {
+    content: 'crop_portrait';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-crop-rotate::before {
+    content: 'crop_rotate';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-crop-square::before {
+    content: 'crop_square';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-dehaze::before {
+    content: 'dehaze';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-details::before {
+    content: 'details';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-edit::before {
+    content: 'edit';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-exposure::before {
+    content: 'exposure';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-exposure-neg-1::before {
+    content: 'exposure_neg_1';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-exposure-neg-2::before {
+    content: 'exposure_neg_2';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-exposure-plus-1::before {
+    content: 'exposure_plus_1';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-exposure-plus-2::before {
+    content: 'exposure_plus_2';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-exposure-zero::before {
+    content: 'exposure_zero';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-filter::before {
+    content: 'filter';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-filter-1::before {
+    content: 'filter_1';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-filter-2::before {
+    content: 'filter_2';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-filter-3::before {
+    content: 'filter_3';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-filter-4::before {
+    content: 'filter_4';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-filter-5::before {
+    content: 'filter_5';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-filter-6::before {
+    content: 'filter_6';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-filter-7::before {
+    content: 'filter_7';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-filter-8::before {
+    content: 'filter_8';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-filter-9::before {
+    content: 'filter_9';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-filter-9-plus::before {
+    content: 'filter_9_plus';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-filter-b-and-w::before {
+    content: 'filter_b_and_w';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-filter-center-focus::before {
+    content: 'filter_center_focus';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-filter-drama::before {
+    content: 'filter_drama';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-filter-frames::before {
+    content: 'filter_frames';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-filter-hdr::before {
+    content: 'filter_hdr';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-filter-none::before {
+    content: 'filter_none';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-filter-tilt-shift::before {
+    content: 'filter_tilt_shift';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-filter-vintage::before {
+    content: 'filter_vintage';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-flare::before {
+    content: 'flare';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-flash-auto::before {
+    content: 'flash_auto';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-flash-off::before {
+    content: 'flash_off';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-flash-on::before {
+    content: 'flash_on';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-flip::before {
+    content: 'flip';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-gradient::before {
+    content: 'gradient';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-grain::before {
+    content: 'grain';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-grid-off::before {
+    content: 'grid_off';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-grid-on::before {
+    content: 'grid_on';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-hdr-off::before {
+    content: 'hdr_off';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-hdr-on::before {
+    content: 'hdr_on';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-hdr-strong::before {
+    content: 'hdr_strong';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-hdr-weak::before {
+    content: 'hdr_weak';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-healing::before {
+    content: 'healing';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-image::before {
+    content: 'image';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-image-aspect-ratio::before {
+    content: 'image_aspect_ratio';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-iso::before {
+    content: 'iso';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-landscape::before {
+    content: 'landscape';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-leak-add::before {
+    content: 'leak_add';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-leak-remove::before {
+    content: 'leak_remove';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-lens::before {
+    content: 'lens';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-linked-camera::before {
+    content: 'linked_camera';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-looks::before {
+    content: 'looks';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-looks-3::before {
+    content: 'looks_3';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-looks-4::before {
+    content: 'looks_4';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-looks-5::before {
+    content: 'looks_5';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-looks-6::before {
+    content: 'looks_6';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-looks-one::before {
+    content: 'looks_one';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-looks-two::before {
+    content: 'looks_two';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-loupe::before {
+    content: 'loupe';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-monochrome-photos::before {
+    content: 'monochrome_photos';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-movie-creation::before {
+    content: 'movie_creation';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-movie-filter::before {
+    content: 'movie_filter';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-music-note::before {
+    content: 'music_note';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-nature::before {
+    content: 'nature';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-nature-people::before {
+    content: 'nature_people';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-navigate-before::before {
+    content: 'navigate_before';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-navigate-next::before {
+    content: 'navigate_next';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-palette::before {
+    content: 'palette';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-panorama::before {
+    content: 'panorama';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-panorama-fish-eye::before {
+    content: 'panorama_fish_eye';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-panorama-horizontal::before {
+    content: 'panorama_horizontal';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-panorama-vertical::before {
+    content: 'panorama_vertical';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-panorama-wide-angle::before {
+    content: 'panorama_wide_angle';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-photo::before {
+    content: 'photo';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-photo-album::before {
+    content: 'photo_album';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-photo-camera::before {
+    content: 'photo_camera';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-photo-filter::before {
+    content: 'photo_filter';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-photo-library::before {
+    content: 'photo_library';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-photo-size-select-actual::before {
+    content: 'photo_size_select_actual';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-photo-size-select-large::before {
+    content: 'photo_size_select_large';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-photo-size-select-small::before {
+    content: 'photo_size_select_small';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-picture-as-pdf::before {
+    content: 'picture_as_pdf';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-portrait::before {
+    content: 'portrait';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-remove-red-eye::before {
+    content: 'remove_red_eye';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-rotate-90-degrees-ccw::before {
+    content: 'rotate_90_degrees_ccw';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-rotate-left::before {
+    content: 'rotate_left';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-rotate-right::before {
+    content: 'rotate_right';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-slideshow::before {
+    content: 'slideshow';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-straighten::before {
+    content: 'straighten';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-style::before {
+    content: 'style';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-switch-camera::before {
+    content: 'switch_camera';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-switch-video::before {
+    content: 'switch_video';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-tag-faces::before {
+    content: 'tag_faces';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-texture::before {
+    content: 'texture';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-timelapse::before {
+    content: 'timelapse';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-timer::before {
+    content: 'timer';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-timer-10::before {
+    content: 'timer_10';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-timer-3::before {
+    content: 'timer_3';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-timer-off::before {
+    content: 'timer_off';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-tonality::before {
+    content: 'tonality';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-transform::before {
+    content: 'transform';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-tune::before {
+    content: 'tune';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-view-comfy::before {
+    content: 'view_comfy';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-view-compact::before {
+    content: 'view_compact';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-vignette::before {
+    content: 'vignette';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-wb-auto::before {
+    content: 'wb_auto';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-wb-cloudy::before {
+    content: 'wb_cloudy';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-wb-incandescent::before {
+    content: 'wb_incandescent';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-wb-iridescent::before {
+    content: 'wb_iridescent';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-wb-sunny::before {
+    content: 'wb_sunny';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-add-location::before {
+    content: 'add_location';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-beenhere::before {
+    content: 'beenhere';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-directions::before {
+    content: 'directions';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-directions-bike::before {
+    content: 'directions_bike';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-directions-boat::before {
+    content: 'directions_boat';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-directions-bus::before {
+    content: 'directions_bus';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-directions-car::before {
+    content: 'directions_car';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-directions-railway::before {
+    content: 'directions_railway';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-directions-run::before {
+    content: 'directions_run';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-directions-subway::before {
+    content: 'directions_subway';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-directions-transit::before {
+    content: 'directions_transit';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-directions-walk::before {
+    content: 'directions_walk';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-edit-location::before {
+    content: 'edit_location';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-ev-station::before {
+    content: 'ev_station';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-flight::before {
+    content: 'flight';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-hotel::before {
+    content: 'hotel';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-layers::before {
+    content: 'layers';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-layers-clear::before {
+    content: 'layers_clear';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-local-activity::before {
+    content: 'local_activity';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-local-airport::before {
+    content: 'local_airport';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-local-atm::before {
+    content: 'local_atm';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-local-bar::before {
+    content: 'local_bar';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-local-cafe::before {
+    content: 'local_cafe';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-local-car-wash::before {
+    content: 'local_car_wash';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-local-convenience-store::before {
+    content: 'local_convenience_store';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-local-dining::before {
+    content: 'local_dining';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-local-drink::before {
+    content: 'local_drink';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-local-florist::before {
+    content: 'local_florist';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-local-gas-station::before {
+    content: 'local_gas_station';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-local-grocery-store::before {
+    content: 'local_grocery_store';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-local-hospital::before {
+    content: 'local_hospital';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-local-hotel::before {
+    content: 'local_hotel';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-local-laundry-service::before {
+    content: 'local_laundry_service';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-local-library::before {
+    content: 'local_library';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-local-mall::before {
+    content: 'local_mall';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-local-movies::before {
+    content: 'local_movies';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-local-offer::before {
+    content: 'local_offer';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-local-parking::before {
+    content: 'local_parking';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-local-pharmacy::before {
+    content: 'local_pharmacy';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-local-phone::before {
+    content: 'local_phone';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-local-pizza::before {
+    content: 'local_pizza';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-local-play::before {
+    content: 'local_play';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-local-post-office::before {
+    content: 'local_post_office';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-local-printshop::before {
+    content: 'local_printshop';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-local-see::before {
+    content: 'local_see';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-local-shipping::before {
+    content: 'local_shipping';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-local-taxi::before {
+    content: 'local_taxi';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-map::before {
+    content: 'map';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-my-location::before {
+    content: 'my_location';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-navigation::before {
+    content: 'navigation';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-near-me::before {
+    content: 'near_me';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-person-pin::before {
+    content: 'person_pin';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-person-pin-circle::before {
+    content: 'person_pin_circle';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-pin-drop::before {
+    content: 'pin_drop';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-place::before {
+    content: 'place';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-rate-review::before {
+    content: 'rate_review';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-restaurant::before {
+    content: 'restaurant';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-restaurant-menu::before {
+    content: 'restaurant_menu';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-satellite::before {
+    content: 'satellite';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-store-mall-directory::before {
+    content: 'store_mall_directory';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-streetview::before {
+    content: 'streetview';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-subway::before {
+    content: 'subway';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-terrain::before {
+    content: 'terrain';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-traffic::before {
+    content: 'traffic';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-train::before {
+    content: 'train';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-tram::before {
+    content: 'tram';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-transfer-within-a-station::before {
+    content: 'transfer_within_a_station';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-zoom-out-map::before {
+    content: 'zoom_out_map';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-apps::before {
+    content: 'apps';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-arrow-back::before {
+    content: 'arrow_back';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-arrow-downward::before {
+    content: 'arrow_downward';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-arrow-drop-down::before {
+    content: 'arrow_drop_down';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-arrow-drop-down-circle::before {
+    content: 'arrow_drop_down_circle';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-arrow-drop-up::before {
+    content: 'arrow_drop_up';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-arrow-forward::before {
+    content: 'arrow_forward';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-arrow-upward::before {
+    content: 'arrow_upward';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-cancel::before {
+    content: 'cancel';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-check::before {
+    content: 'check';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-chevron-left::before {
+    content: 'chevron_left';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-chevron-right::before {
+    content: 'chevron_right';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-close::before {
+    content: 'close';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-expand-less::before {
+    content: 'expand_less';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-expand-more::before {
+    content: 'expand_more';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-first-page::before {
+    content: 'first_page';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-fullscreen::before {
+    content: 'fullscreen';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-fullscreen-exit::before {
+    content: 'fullscreen_exit';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-last-page::before {
+    content: 'last_page';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-menu::before {
+    content: 'menu';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-more-horiz::before {
+    content: 'more_horiz';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-more-vert::before {
+    content: 'more_vert';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-refresh::before {
+    content: 'refresh';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-subdirectory-arrow-left::before {
+    content: 'subdirectory_arrow_left';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-subdirectory-arrow-right::before {
+    content: 'subdirectory_arrow_right';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-adb::before {
+    content: 'adb';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-airline-seat-flat::before {
+    content: 'airline_seat_flat';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-airline-seat-flat-angled::before {
+    content: 'airline_seat_flat_angled';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-airline-seat-individual-suite::before {
+    content: 'airline_seat_individual_suite';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-airline-seat-legroom-extra::before {
+    content: 'airline_seat_legroom_extra';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-airline-seat-legroom-normal::before {
+    content: 'airline_seat_legroom_normal';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-airline-seat-legroom-reduced::before {
+    content: 'airline_seat_legroom_reduced';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-airline-seat-recline-extra::before {
+    content: 'airline_seat_recline_extra';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-airline-seat-recline-normal::before {
+    content: 'airline_seat_recline_normal';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-bluetooth-audio::before {
+    content: 'bluetooth_audio';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-confirmation-number::before {
+    content: 'confirmation_number';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-disc-full::before {
+    content: 'disc_full';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-do-not-disturb::before {
+    content: 'do_not_disturb';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-do-not-disturb-alt::before {
+    content: 'do_not_disturb_alt';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-do-not-disturb-off::before {
+    content: 'do_not_disturb_off';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-do-not-disturb-on::before {
+    content: 'do_not_disturb_on';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-drive-eta::before {
+    content: 'drive_eta';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-enhanced-encryption::before {
+    content: 'enhanced_encryption';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-event-available::before {
+    content: 'event_available';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-event-busy::before {
+    content: 'event_busy';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-event-note::before {
+    content: 'event_note';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-folder-special::before {
+    content: 'folder_special';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-live-tv::before {
+    content: 'live_tv';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-mms::before {
+    content: 'mms';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-more::before {
+    content: 'more';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-network-check::before {
+    content: 'network_check';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-network-locked::before {
+    content: 'network_locked';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-no-encryption::before {
+    content: 'no_encryption';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-ondemand-video::before {
+    content: 'ondemand_video';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-personal-video::before {
+    content: 'personal_video';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-phone-bluetooth-speaker::before {
+    content: 'phone_bluetooth_speaker';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-phone-forwarded::before {
+    content: 'phone_forwarded';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-phone-in-talk::before {
+    content: 'phone_in_talk';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-phone-locked::before {
+    content: 'phone_locked';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-phone-missed::before {
+    content: 'phone_missed';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-phone-paused::before {
+    content: 'phone_paused';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-power::before {
+    content: 'power';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-priority-high::before {
+    content: 'priority_high';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-sd-card::before {
+    content: 'sd_card';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-sim-card-alert::before {
+    content: 'sim_card_alert';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-sms::before {
+    content: 'sms';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-sms-failed::before {
+    content: 'sms_failed';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-sync::before {
+    content: 'sync';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-sync-disabled::before {
+    content: 'sync_disabled';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-sync-problem::before {
+    content: 'sync_problem';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-system-update::before {
+    content: 'system_update';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-tap-and-play::before {
+    content: 'tap_and_play';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-time-to-leave::before {
+    content: 'time_to_leave';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-vibration::before {
+    content: 'vibration';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-voice-chat::before {
+    content: 'voice_chat';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-vpn-lock::before {
+    content: 'vpn_lock';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-wc::before {
+    content: 'wc';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-wifi::before {
+    content: 'wifi';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-ac-unit::before {
+    content: 'ac_unit';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-airport-shuttle::before {
+    content: 'airport_shuttle';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-all-inclusive::before {
+    content: 'all_inclusive';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-beach-access::before {
+    content: 'beach_access';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-business-center::before {
+    content: 'business_center';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-casino::before {
+    content: 'casino';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-child-care::before {
+    content: 'child_care';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-child-friendly::before {
+    content: 'child_friendly';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-fitness-center::before {
+    content: 'fitness_center';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-free-breakfast::before {
+    content: 'free_breakfast';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-golf-course::before {
+    content: 'golf_course';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-hot-tub::before {
+    content: 'hot_tub';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-kitchen::before {
+    content: 'kitchen';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-pool::before {
+    content: 'pool';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-room-service::before {
+    content: 'room_service';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-rv-hookup::before {
+    content: 'rv_hookup';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-smoke-free::before {
+    content: 'smoke_free';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-smoking-rooms::before {
+    content: 'smoking_rooms';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-spa::before {
+    content: 'spa';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-cake::before {
+    content: 'cake';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-domain::before {
+    content: 'domain';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-group::before {
+    content: 'group';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-group-add::before {
+    content: 'group_add';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-location-city::before {
+    content: 'location_city';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-mood::before {
+    content: 'mood';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-mood-bad::before {
+    content: 'mood_bad';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-notifications::before {
+    content: 'notifications';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-notifications-active::before {
+    content: 'notifications_active';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-notifications-none::before {
+    content: 'notifications_none';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-notifications-off::before {
+    content: 'notifications_off';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-notifications-paused::before {
+    content: 'notifications_paused';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-pages::before {
+    content: 'pages';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-party-mode::before {
+    content: 'party_mode';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-people::before {
+    content: 'people';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-people-outline::before {
+    content: 'people_outline';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-person::before {
+    content: 'person';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-person-add::before {
+    content: 'person_add';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-person-outline::before {
+    content: 'person_outline';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-plus-one::before {
+    content: 'plus_one';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-poll::before {
+    content: 'poll';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-public::before {
+    content: 'public';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-school::before {
+    content: 'school';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-sentiment-dissatisfied::before {
+    content: 'sentiment_dissatisfied';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-sentiment-neutral::before {
+    content: 'sentiment_neutral';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-sentiment-satisfied::before {
+    content: 'sentiment_satisfied';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-sentiment-very-dissatisfied::before {
+    content: 'sentiment_very_dissatisfied';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-sentiment-very-satisfied::before {
+    content: 'sentiment_very_satisfied';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-share::before {
+    content: 'share';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-whatshot::before {
+    content: 'whatshot';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-check-box::before {
+    content: 'check_box';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-check-box-outline-blank::before {
+    content: 'check_box_outline_blank';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-indeterminate-check-box::before {
+    content: 'indeterminate_check_box';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-radio-button-checked::before {
+    content: 'radio_button_checked';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-radio-button-unchecked::before {
+    content: 'radio_button_unchecked';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-star::before {
+    content: 'star';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-star-border::before {
+    content: 'star_border';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/etc/mixins/icons.scss:8 */
+.md-icon-star-half::before {
+    content: 'star_half';
+}
+/* /code/MyProject/ext/modern/theme-material/sass/src/Component.scss:68 */
+@font-face {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-style: normal;
+    src: local('Roboto Regular'), local('Roboto-Regular'), url("../../modern/resources/fonts/roboto/Roboto-Regular.ttf") format('truetype');
+}
+/* /code/MyProject/ext/modern/theme-material/sass/src/Component.scss:76 */
+@font-face {
+    font-family: 'Roboto';
+    font-weight: 100;
+    font-style: normal;
+    src: local('Roboto Light'), local('Roboto-Light'), url("../../modern/resources/fonts/roboto/Roboto-Light.ttf") format('truetype');
+}
+/* /code/MyProject/ext/modern/theme-material/sass/src/Component.scss:85 */
+@font-face {
+    font-family: 'Roboto';
+    font-weight: 600;
+    font-style: normal;
+    src: local('Roboto Medium'), local('Roboto-Medium'), url("../../modern/resources/fonts/roboto/Roboto-Medium.ttf") format('truetype');
+}
+/* /code/MyProject/ext/modern/theme-material/sass/src/Component.scss:94 */
+@font-face {
+    font-family: 'Roboto';
+    font-weight: 900;
+    font-style: normal;
+    src: local('Roboto Bold'), local('Roboto-Bold'), url("../../modern/resources/fonts/roboto/Roboto-Bold.ttf") format('truetype');
+}
+/* /code/MyProject/ext/modern/theme-material/sass/src/Component.scss:103 */
+@font-face {
+    font-family: 'Roboto';
+    font-weight: normal;
+    font-style: italic;
+    src: local('Roboto Italic'), local('Roboto-Italic'), url("../../modern/resources/fonts/roboto/Roboto-Italic.ttf") format('truetype');
+}
+/* /code/MyProject/ext/modern/theme-material/sass/src/Component.scss:114 */
+@font-face {
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Material Icons'), local('MaterialIcons-Regular'), url("../../modern/resources/fonts/MaterialIcons-Regular.ttf") format('truetype');
+}
+/* /code/MyProject/ext/modern/theme-material/sass/src/Component.scss:123 */
+html,
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #111;
+    color: var(--color);
+}
+/* /code/MyProject/ext/modern/theme-material/sass/src/Indicator.scss:1 */
+.x-indicator span {
+    transition: background-color 0.25s ease-out, width 0.1s ease-out, height 0.1s ease-out;
+}
+/* /code/MyProject/ext/modern/theme-material/sass/src/list/TreeItem.scss:1 */
+.x-gridcell.x-treelist-item {
+    border: none;
+}
+/* /code/MyProject/ext/modern/theme-material/sass/src/Button.scss:10 */
+.x-button-fab .x-inner-el {
+    box-shadow: 2px 2px 5px 0 rgba(0, 0, 0, 0.18), 2px 2px 5px 0 rgba(0, 0, 0, 0.12);
+    z-index: 2;
+    color: #222;
+    color: var(--accent-foreground-color);
+    display: flex;
+    width: 56px;
+    height: 56px;
+    background-color: #ff9800;
+    background-color: var(--accent-color);
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    transition: background-color 450ms cubic-bezier(0.23, 1, 0.32, 1);
+}
+/* /code/MyProject/ext/modern/theme-material/sass/src/Button.scss:23 */
+.x-button-fab .x-ripple {
+    background-color: #222;
+    background-color: var(--accent-foreground-color);
+}
+/* /code/MyProject/ext/modern/theme-material/sass/src/Button.scss:27 */
+.x-button-fab.x-hovered .x-inner-el {
+    background-color: #ffb74d;
+    background-color: var(--accent-pressed-color);
+}
+/* /code/MyProject/ext/modern/theme-material/sass/src/Button.scss:31 */
+.x-keyboard-mode .x-button-fab.x-focused .x-inner-el {
+    background-color: #ffb74d;
+    background-color: var(--accent-pressed-color);
+}
+/* /code/MyProject/ext/modern/theme-material/sass/src/Button.scss:36 */
+.x-big .x-button-fab .x-inner-el {
+    border-radius: 50%;
+}
+/* /code/MyProject/ext/modern/theme-material/sass/src/Button.scss:41 */
+.x-button-fab .x-icon-el {
+    color: #222;
+    color: var(--accent-foreground-color);
+}
+/* /code/MyProject/ext/modern/theme-material/sass/src/Button.scss:46 */
+.x-button-fab.x-pressing .x-inner-el {
+    box-shadow: 2px 2px 5px 0 rgba(0, 0, 0, 0.21), 2px 2px 6px 0 rgba(0, 0, 0, 0.18);
+    z-index: 3;
+    background-color: #ffb74d;
+    background-color: var(--accent-pressed-color);
+}
+/* /code/MyProject/ext/modern/theme-material/sass/src/Button.scss:48 */
+.x-button-fab.x-pressing .x-inner-el .x-icon-el {
+    color: #222;
+    color: var(--accent-foreground-color);
+}
+/* /code/MyProject/ext/modern/theme-material/sass/src/Button.scss:57 */
+.x-docked-top .x-has-badge .x-badge-el {
+    top: -8px;
+}
+/* /code/MyProject/ext/modern/theme-material/sass/src/Button.scss:63 */
+.x-has-badge .x-badge-el {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    text-align: center;
+    display: block;
+    overflow: hidden;
+    box-shadow: 2px 2px 5px 0 rgba(0, 0, 0, 0.12), 2px 2px 5px 0 rgba(0, 0, 0, 0.08);
+    z-index: 1;
+}
+/* /code/MyProject/ext/modern/theme-material/sass/src/Toolbar.scss:1 */
+.x-toolbar-body-el {
+    overflow: visible;
+}
+/* /code/MyProject/ext/modern/theme-material/sass/src/Toolbar.scss:6 */
+.x-toolbar-body-el > .x-title {
+    transition: 0.25s padding ease-out;
+}
+/* /code/MyProject/ext/modern/theme-material/sass/src/Panel.scss:3 */
+.x-panelheader .x-field {
+    background-color: transparent;
+    border-bottom-color: rgba(255, 255, 255, 0.38);
+    border-bottom-color: var(--reverse-disabled-color);
+}
+/* /code/MyProject/ext/modern/theme-material/sass/src/Panel.scss:7 */
+.x-panelheader .x-field .x-label-el {
+    color: #ff9800;
+    color: var(--accent-color);
+}
+/* /code/MyProject/ext/modern/theme-material/sass/src/Panel.scss:11 */
+.x-panelheader .x-field.x-focused {
+    border-bottom-color: #ff9800;
+    border-bottom-color: var(--accent-color);
+}
+/* /code/MyProject/ext/modern/theme-material/sass/src/Panel.scss:17 */
+.x-panelheader .x-input .x-cleartrigger .x-icon-el {
+    color: #fff;
+    color: var(--base-foreground-color);
+}
+/* /code/MyProject/ext/modern/theme-material/sass/src/Panel.scss:22 */
+.x-panelheader .x-input .x-input-el {
+    -webkit-text-fill-color: #fff;
+    -webkit-text-fill-color: var(--base-foreground-color);
+}
+/* /code/MyProject/ext/modern/theme-material/sass/src/Panel.scss:28 */
+.x-panelheader .x-toggleslider.x-on {
+    background-color: #ffb74d;
+    background-color: var(--accent-pressed-color);
+}
+/* /code/MyProject/ext/modern/theme-material/sass/src/Panel.scss:32 */
+.x-panelheader .x-toggleslider.x-on .x-thumb:after {
+    background-color: #ff9800;
+    background-color: var(--accent-color);
+}
+/* /code/MyProject/ext/modern/theme-material/sass/src/dataview/ItemHeader.scss:2 */
+.x-itemheader.x-pinned {
+    box-shadow: 2px 2px 5px 0 rgba(0, 0, 0, 0.12), 2px 2px 5px 0 rgba(0, 0, 0, 0.08);
+    z-index: 3;
+}
+/* /code/MyProject/ext/modern/theme-material/sass/src/dataview/SimpleListItem.scss:1 */
+.x-listitem-disclosure .x-icon-el {
+    transition: background-color 0.28s cubic-bezier(0.4, 0, 0.2, 1);
+}
+/* /code/MyProject/ext/modern/theme-material/sass/src/dataview/IndexBar.scss:1 */
+.x-indexbar-indicator {
+    box-shadow: 2px 2px 5px 0 rgba(0, 0, 0, 0.18), 2px 2px 5px 0 rgba(0, 0, 0, 0.12);
+    z-index: 2;
+}
+/* /code/MyProject/ext/modern/theme-material/sass/src/slider/Slider.scss:2 */
+.x-slider .x-thumb {
+    transition: transform 0.15s ease-out;
+}
+/* /code/MyProject/ext/modern/theme-material/sass/src/slider/Slider.scss:5 */
+.x-slider .x-thumb:active {
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+}
+/* /code/MyProject/ext/modern/theme-material/sass/src/slider/Slider.scss:9 */
+.x-slider .x-thumb.x-disabled:active {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+/* /code/MyProject/ext/modern/theme-material/sass/src/slider/Toggle.scss:1 */
+.x-toggleslider .x-thumb {
+    box-shadow: 2px 2px 5px 0 rgba(0, 0, 0, 0.12), 2px 2px 5px 0 rgba(0, 0, 0, 0.08);
+    z-index: 1;
+}
+/* /code/MyProject/ext/modern/theme-material/sass/src/slider/Toggle.scss:4 */
+.x-toggleslider .x-thumb:active {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+/* /code/MyProject/ext/modern/theme-material/sass/src/tab/Bar.scss:2 */
+.x-tabbar-body-el {
+    overflow: visible;
+    padding: 0;
+}
+/* /code/MyProject/ext/modern/theme-material/sass/src/tab/Bar.scss:6 */
+.x-big .x-tabbar-body-el {
+    padding: 0;
+}
+/* /code/MyProject/UploadApp/modern/src/view/main/List.scss:5 */
+.bold {
+    /*
+ * This file contains styling for the main List view.
+ */
+    font-weight: 500;
+}
